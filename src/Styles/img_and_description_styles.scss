@@ -4,19 +4,21 @@
     // align-items: center;
     // background-color: maroon;
     padding-top: 2rem;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 
 .img-description-content-wrapper img { 
-    width: 38rem;
+    width: 31rem;
     margin-left: 2rem;
     border-radius: 1rem;
 }
 
 .title-description-container { 
-    font-family: "Reddit Sans Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
 
+    font-family: "Reddit Sans Condensed", sans-serif;
 }
 
 .title-description-container h1, h3 { 
@@ -24,3 +26,45 @@
     text-align: center;
 }
 
+.attributes-container { 
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.attributes-container h4 { 
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+
+.description-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.description-container p { 
+    max-width: 80rem;
+}
+
+.description-contact-me-btn-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+.description-contact-me-btn-container button { 
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-color: maroon;
+    color: white;
+}
