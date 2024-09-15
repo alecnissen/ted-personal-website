@@ -1,0 +1,26 @@
+.img-description-content-wrapper { 
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // background-color: maroon;
+    padding-top: 2rem;
+    gap: 6rem;
+}
+
+
+.img-description-content-wrapper img { 
+    width: 38rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.title-description-container { 
+    font-family: "Reddit Sans Condensed", sans-serif;
+
+}
+
+.title-description-container h1, h3 { 
+    font-size: 4rem;
+    text-align: center;
+}
+
