@@ -1,0 +1,43 @@
+.featured-books-content-wrapper { 
+    background-color: maroon;
+}
+
+.featured-books-content-wrapper h1 { 
+    text-align: center;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.featured-books-container { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.featured-book-container { 
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 1rem;
+    width: 22rem;
+    padding: 1rem;
+}
+
+.featured-books-container h1 { 
+    color: black;
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.featured-book-container p { 
+    padding-bottom: 0.5rem;
+}
+
+
+
+

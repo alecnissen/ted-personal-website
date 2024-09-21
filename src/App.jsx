@@ -1,6 +1,7 @@
 import Header from "./Header"
 import ImgAndDescription from "./ImgAndDescription"
 import ExpertiseCards from "./ExpertiseCards"
+import FeaturedBooks from "./FeaturedBooks"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <Header></Header>
     <ImgAndDescription></ImgAndDescription>
     <ExpertiseCards></ExpertiseCards>
+    <FeaturedBooks></FeaturedBooks>
     </>
   )
 }
