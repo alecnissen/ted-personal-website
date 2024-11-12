@@ -8,7 +8,9 @@ export default function ExpertiseCards() {
   return (
     <div className='expertise-cards-content-wrapper'>
      
+            <h1>Areas Of Expertise</h1>
         <div className='expertise-cards-container'>
+
 
             <div className='expertise-card'>
                 <h1>Indian History</h1>
