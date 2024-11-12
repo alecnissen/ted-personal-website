@@ -8,7 +8,12 @@ export default function ExpertiseCards() {
   return (
     <div className='expertise-cards-content-wrapper'>
      
+
+            <div className='areas-of-expertise-header-container'>
             <h1>Areas Of Expertise</h1>
+            </div>
+
+
         <div className='expertise-cards-container'>
 
 

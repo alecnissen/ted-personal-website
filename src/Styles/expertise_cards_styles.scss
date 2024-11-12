@@ -3,7 +3,21 @@
     padding: 2rem;
 }
 
+.areas-of-expertise-header-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 2rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
 
+.areas-of-expertise-header-container h1 { 
+    color: white;
+    padding-bottom: 2rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-size: 3rem;
+}
 
 .expertise-cards-container,
 .expertise-img-container { 

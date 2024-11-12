@@ -32,7 +32,7 @@
     text-align: center;
     border-radius: 1rem;
     width: 20rem;
-   
+    box-shadow: 12px 12px 2px 1px black;
     padding: 1rem;
     min-height: 30rem; /* Ensure all cards are the same minimum height */
 }
@@ -57,4 +57,10 @@
 
 .featured-book-container button {
     align-self: center; /* Ensures button aligns centrally */
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-color: maroon;
+    color: white;
+    font-size: 1.2rem;
 }
