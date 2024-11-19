@@ -1,0 +1,40 @@
+.featured-lectures-content-wrapper { 
+    background-color: maroon;
+}
+
+.featured-lectures-content-wrapper h1{ 
+    text-align: center;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    color: white;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+.featured-lectures-video-container { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+}
+
+.featured-lecture-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.lecture-img-1-styles { 
+    width: 30rem;
+}
+
+.lecture-img-2-styles { 
+    width: 30rem;
+    height: 15rem;
+}
+
+.featured-lecture-container h1 { 
+    font-size: 2rem;
+}
