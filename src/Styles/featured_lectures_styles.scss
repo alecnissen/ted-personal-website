@@ -1,4 +1,8 @@
 .featured-lectures-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: maroon;
 }
 
@@ -15,6 +19,7 @@
     justify-content: center;
     align-content: center;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .featured-lecture-container { 
@@ -22,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -37,4 +43,15 @@
 
 .featured-lecture-container h1 { 
     font-size: 2rem;
+}
+
+.featured-lecture-container a { 
+    text-decoration: none;
+    color: white;
+}
+
+.featured-lecture-container a:hover h1{ 
+    text-decoration: underline;
+    text-decoration-color: rgb(224, 191, 0);
+    color: rgb(224, 191, 0);
 }
