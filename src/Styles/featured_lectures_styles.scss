@@ -43,6 +43,8 @@
 
 .featured-lecture-container h1 { 
     font-size: 2rem;
+    color: black;
+    padding-top: 1rem;
 }
 
 .featured-lecture-container a { 
@@ -56,6 +58,33 @@
     color: rgb(224, 191, 0);
 }
 
-// .featured-lecture-container { 
-//     background-color: white;
-// }
+.featured-lecture-img-styles { 
+    width: 20rem;
+}
+
+.featured-lecture-container { 
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    // width: 29rem;
+}
+
+.lecture-description-styles { 
+    max-width: 30rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.watch-lecture-btn-styles { 
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-color: maroon;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+

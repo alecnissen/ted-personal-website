@@ -5,6 +5,7 @@ import img3 from './Assets/prof-ted-lecture-photo-3.png';
 import img4 from './Assets/prof-ted-lecture-photo-4.png';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { CardBody } from 'react-bootstrap';
 
 export default function FeaturedLectures() {
   return (
@@ -28,35 +29,33 @@ export default function FeaturedLectures() {
           <img src={img2} className="lecture-img-2-styles"></img>
         </div>
 
-
-        <div className="featured-lecture-container">
+        {/* <div className="featured-lecture-container">
           <a href="https://www.youtube.com/watch?v=_7IKl0tDXEA&t=161s" target="_blank">
             <h1>Calumet: The Region & The Anthropocene</h1>
           </a>
 
           <img src={img3} className="lecture-img-2-styles"></img>
-        </div>
-
-
-       
+        </div> */}
 
         <Card className="featured-lecture-container">
-          <img src={img1}></img>
-          <Card.Body>
-            <h1>Rally Round the Flag: Chicago and the Civil War</h1>
+          <a href="https://www.youtube.com/watch?v=_7IKl0tDXEA&t=161s" target="_blank">
+            <h1>Calumet: The Region & The Anthropocene</h1>
+          </a>
+          <img src={img3} className="lecture-img-2-styles"></img>
 
-            <p>
-              Some quick example text to build on the card title and make up the bulk of the card's
-              content.
+          <Card.Body>
+            <p className='lecture-description-styles'>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti harum repellendus doloremque maxime sit ut, explicabo architecto rem commodi, a suscipit magnam, numquam odit asperiores ex fuga. Fugit, suscipit.
             </p>
 
-            <button>Find Book</button>
+            <a href="https://www.youtube.com/watch?v=_7IKl0tDXEA&t=161s" target="_blank">
+            <button className='watch-lecture-btn-styles'>Watch Lecture</button>
+            </a>
+
           </Card.Body>
         </Card>
+
         
-
-
-
       </div>
     </div>
   );
