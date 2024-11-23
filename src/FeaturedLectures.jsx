@@ -3,6 +3,8 @@ import img1 from './Assets/prof-ted-lecture-photo.png';
 import img2 from './Assets/prof-ted-lecture-photo-2.png';
 import img3 from './Assets/prof-ted-lecture-photo-3.png';
 import img4 from './Assets/prof-ted-lecture-photo-4.png';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 export default function FeaturedLectures() {
   return (
@@ -38,7 +40,19 @@ export default function FeaturedLectures() {
 
        
 
+        <Card className="featured-lecture-container">
+          <img src={img1}></img>
+          <Card.Body>
+            <h1>Rally Round the Flag: Chicago and the Civil War</h1>
 
+            <p>
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+
+            <button>Find Book</button>
+          </Card.Body>
+        </Card>
         
 
 

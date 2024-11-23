@@ -3,6 +3,7 @@ import ImgAndDescription from "./ImgAndDescription"
 import ExpertiseCards from "./ExpertiseCards"
 import FeaturedBooks from "./FeaturedBooks"
 import FeaturedLectures from "./FeaturedLectures"
+import LatestNews from "./LatestNews"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <ExpertiseCards></ExpertiseCards>
     <FeaturedBooks></FeaturedBooks>
     <FeaturedLectures></FeaturedLectures>
+    <LatestNews></LatestNews>
     </>
   )
 }

@@ -1,0 +1,1 @@
+// fix the lecture content so they are cards just like the books 
