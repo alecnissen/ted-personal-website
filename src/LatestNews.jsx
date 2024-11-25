@@ -12,34 +12,17 @@ export default function LatestNews() {
       <h1>Latest News</h1>
 
 
-      {/* <Carousel className='news-carousel-styles bootstrap-wrapper'>
-      <Carousel.Item>
-        
-        <Carousel.Caption className='news-carousel-title-subtitle-styles'>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel> */}
 
-
-
+      <div className='news-container'> 
+       
+       <div className='news-content-container'>
+       <li> <a href='https://www.historians.org/perspectives-article/awards-prizes-and-honors-to-be-conferred-at-the-135th-annual-meeting-december-2021/' target='_blank'>Awarded Herbert Feis Award in Public History (2021)</a> </li>
+        <li><a href='https://ncph.org/history-at-work/reflecting-on-the-founders-award/' target='_blank'>Winner of the Founders Award (2021)</a></li>
+        <li><a href='https://classicchicagomagazine.com/celebrating-chicago-the-queen-of-the-lakes/' target='_blank'>Celebrating Chicago, the Queen of the Lakes</a></li>
+        <li><a href='https://jobs.luc.edu/history/news/2019stories/archive/proftheodorekaramanskihonoredwithlifetimeachievementaward.shtml' target='_blank'>Prof. Theodore Karamanski Honored with Lifetime Achievement Award</a></li>
+        </div>
+      
+      </div>
 
 
 

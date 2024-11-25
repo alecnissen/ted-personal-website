@@ -1,4 +1,8 @@
 .latest-news-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: maroon;
 }
 
@@ -8,10 +12,39 @@
     color: white;
     font-size: 3rem;
     padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
-.news-carousel-styles { 
-    padding-top: 3rem;
-    color: white;
+
+.news-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44rem; 
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 12px 12px 2px 1px black;
+    
 }
 
+
+.news-content-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.news-content-container li { 
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    list-style-position: outside; /* Ensure bullet points are outside the text */
+    text-align: left;
+    
+}
+
+.news-content-container li a:hover { 
+    color: rgb(224, 191, 0);
+}

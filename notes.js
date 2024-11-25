@@ -3,3 +3,5 @@
 // *** 
 
 // complete the latest news section, then a mission state before the areas of expertise 
+
+// get bullet points and text to line up ok
