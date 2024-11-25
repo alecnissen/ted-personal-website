@@ -1,0 +1,24 @@
+.footer-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    border-top: 4px solid gold;
+    padding: 2rem;
+    color: white;
+    gap: 1rem;
+}
+
+.footer-content-wrapper h1 { 
+    text-align: center;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-size: 2.5rem;
+}
+
+.footer-nav-links-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

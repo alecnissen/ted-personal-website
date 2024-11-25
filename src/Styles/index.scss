@@ -4,16 +4,7 @@
     margin: 0;
 }
 
-.bootstrap-wrapper {
-    all: initial;
-    * {
-      all: unset;
-    }
-  }
-  
-  .bootstrap-wrapper * {
-    all: revert;
-  }
+
   
 
 @import './header_styles.scss';
@@ -22,3 +13,4 @@
 @import './featured_books_container.scss';
 @import './featured_lectures_styles.scss';
 @import './latest_news_styles.scss';
+@import './footer_styles.scss';
