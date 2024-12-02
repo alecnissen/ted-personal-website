@@ -4,9 +4,9 @@
     background-color: maroon;
     padding: 1.5rem;
     border-bottom: 4px solid gold;
-    // position: fixed;
-    // width: 100%;
-    // z-index: 10;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     
 }
 
@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    flex-wrap: wrap;
 
 }
 
@@ -26,3 +27,48 @@
     background-color: transparent;
     font-family: "Reddit Sans Condensed", sans-serif;
 }
+
+
+
+// media queries: 
+
+// media queries for the header
+
+@media (max-width: 930px) { 
+    .header-button-links-container button { 
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 760px) { 
+    .header-button-links-container button { 
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 690px) { 
+    .header-button-links-container button { 
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 690px) { 
+    .header-button-links-container button { 
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 620px) { 
+    .header-button-links-container { 
+        gap: 1.2rem;
+    }
+}
+
+
+// I think at 504 create the offcanvas 
+
+// @media (max-width: 504px) { 
+//     .header-button-links-container button { 
+//         font-size: 1rem;
+//     }
+// }
