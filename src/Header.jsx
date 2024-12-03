@@ -3,8 +3,17 @@ import { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import hamburgerMenuImg from './Assets/hamburger-menu-svgrepo-com.svg'
 
 export default function Header() {
+
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
   return (
     <div className='header-wrapper'>
     
@@ -17,24 +26,38 @@ export default function Header() {
     </div>
 
 
-    {/* <Button variant="primary" className="d-lg-none" >
+
+    {/* <Button variant="primary" className="d-lg-none" onClick={handleShow}>
         Launch
-      </Button>
+    </Button> */}
 
-      <Alert variant="info" className="d-none d-lg-block">
+    {/* <button className="d-lg-none" onClick={handleShow}> 
+      <img src={hamburgerMenuImg}></img>
+    </button> */}
+
+    <img src={hamburgerMenuImg} className="d-lg-none" onClick={handleShow}></img>
+
+    <h1 className='prof-k-header-styles'>Prof Ted Karamanski</h1>
+
+      {/* <Alert variant="info" className="d-none d-lg-block">
         Resize your browser to show the responsive offcanvas toggle.
-      </Alert>
+      </Alert> */}
 
-      <Offcanvas responsive="lg">
+      <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Responsive offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <p className="mb-0">
-            This is content within an <code>.offcanvas-lg</code>.
-          </p>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+
+        <button>Home</button>
+        <button>Biography</button>
+        <button>Publications & Lectures</button>
+        <button>Gallery</button>
+        <button>Contact</button>
         </Offcanvas.Body>
-      </Offcanvas> */}
+      </Offcanvas>
 
 
     </div>

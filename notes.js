@@ -17,3 +17,7 @@
 
 // fixed header *** 
 // get offcanvas working
+
+// *** get offcanvas working, 
+
+// *** change the color of the icon 

@@ -28,6 +28,15 @@
     font-family: "Reddit Sans Condensed", sans-serif;
 }
 
+.prof-k-header-styles { 
+    display: none;
+}
+
+.d-lg-none { 
+ display: none;       
+}
+
+
 
 
 // media queries: 
@@ -67,8 +76,25 @@
 
 // I think at 504 create the offcanvas 
 
-// @media (max-width: 504px) { 
-//     .header-button-links-container button { 
-//         font-size: 1rem;
-//     }
-// }
+@media (max-width: 504px) { 
+    .header-button-links-container button { 
+        display: none;
+    }
+
+    .prof-k-header-styles { 
+        display: flex;
+        color: white;
+    }
+
+    .header-wrapper { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .d-lg-none { 
+        display: flex;      
+        
+    }
+   
+}
