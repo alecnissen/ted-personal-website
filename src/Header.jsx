@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import hamburgerMenuImg from './Assets/hamburger-menu-svgrepo-com.svg'
+import hamburgerMenuImg from './Assets/hamburger-menu-svgrepo-com (3).svg'
 
 export default function Header() {
 
@@ -26,36 +26,28 @@ export default function Header() {
     </div>
 
 
-
-    {/* <Button variant="primary" className="d-lg-none" onClick={handleShow}>
-        Launch
-    </Button> */}
-
-    {/* <button className="d-lg-none" onClick={handleShow}> 
-      <img src={hamburgerMenuImg}></img>
-    </button> */}
-
     <img src={hamburgerMenuImg} className="d-lg-none" onClick={handleShow}></img>
 
-    <h1 className='prof-k-header-styles'>Prof Ted Karamanski</h1>
+    <h1 className='prof-k-header-styles'>Professor Ted Karamanski</h1>
 
-      {/* <Alert variant="info" className="d-none d-lg-block">
-        Resize your browser to show the responsive offcanvas toggle.
-      </Alert> */}
-
-      <Offcanvas show={show} onHide={handleClose}>
+      <Offcanvas show={show} onHide={handleClose} className='header-offcanvas-styles'>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+
+        <div className='offcanvas-header-navlinks-styles'> 
 
         <button>Home</button>
         <button>Biography</button>
         <button>Publications & Lectures</button>
         <button>Gallery</button>
         <button>Contact</button>
+
+        
+
+        </div>
+
+
         </Offcanvas.Body>
       </Offcanvas>
 

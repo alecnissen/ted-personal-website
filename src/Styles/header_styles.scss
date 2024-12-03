@@ -36,7 +36,41 @@
  display: none;       
 }
 
+.offcanvas-header .btn-close { 
+    color: white;
+}
 
+.header-offcanvas-styles { 
+    background-color: maroon;
+    color: white;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    text-align: center;
+}
+
+.offcanvas-header-navlinks-styles { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.offcanvas-header-navlinks-styles button { 
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.7rem;
+}
+
+.offcanvas-header-navlinks-styles button:hover { 
+    text-decoration: underline;
+    text-decoration-color: rgb(224, 191, 0);
+    color: rgb(224, 191, 0);
+}
+
+.offcanvas-header .btn-close { 
+    background-color: white !important;
+}
 
 
 // media queries: 
@@ -83,7 +117,12 @@
 
     .prof-k-header-styles { 
         display: flex;
+        align-items: center;
+        justify-content: center;
         color: white;
+        text-align: center;
+        margin-top: 0.5rem;
+        font-family: "Reddit Sans Condensed", sans-serif;
     }
 
     .header-wrapper { 
