@@ -16,8 +16,8 @@
 // bootstrap over riding previous styles? fix one section at a time *** 
 
 // fixed header *** 
-// get offcanvas working
+// get offcanvas working // done
 
-// *** get offcanvas working, 
+// *** get offcanvas working, // done
 
-// *** change the color of the icon 
+// *** change the color of the icon // done

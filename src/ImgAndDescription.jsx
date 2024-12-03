@@ -1,5 +1,7 @@
 import React from 'react';
-import tedImg from './Assets/Viking.Karamanski.Pic.2.jpeg';
+// import tedImg from './Assets/Viking.Karamanski.Pic.2.jpeg';
+import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
+
 
 export default function ImgAndDescription() {
   return (

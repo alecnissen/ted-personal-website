@@ -12,9 +12,13 @@
 
 
 .img-description-content-wrapper img { 
-    width: 31rem;
+    width: 27rem;
+    height: 38rem;
+    // height: 100%;
     margin-left: 2rem;
+    margin-top: 5rem;
     border-radius: 1rem;
+    box-shadow: 12px 12px 2px 1px black;
 }
 
 .title-description-container { 

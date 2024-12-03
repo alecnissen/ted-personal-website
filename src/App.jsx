@@ -11,8 +11,8 @@ function App() {
   return (
     <> 
     <Header></Header>
-    {/* <ImgAndDescription></ImgAndDescription>
-    <ExpertiseCards></ExpertiseCards>
+    <ImgAndDescription></ImgAndDescription>
+    {/* <ExpertiseCards></ExpertiseCards>
     <FeaturedBooks></FeaturedBooks>
     <FeaturedLectures></FeaturedLectures>
     <LatestNews></LatestNews>
