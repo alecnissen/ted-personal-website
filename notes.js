@@ -21,3 +21,12 @@
 // *** get offcanvas working, // done
 
 // *** change the color of the icon // done
+
+
+// *** IMG AND DESCRIPTION SECTION 
+
+// make sure the h1 and the h3 are in view! 
+
+// play around with spacing and fonts to ensure everything lines up 
+
+// *** need to finish responsiveness for the img and description section 

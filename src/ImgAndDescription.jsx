@@ -1,24 +1,49 @@
 import React from 'react';
 // import tedImg from './Assets/Viking.Karamanski.Pic.2.jpeg';
 import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
+import openBookImg from './Assets/open-book-svgrepo-com.svg';
+import writingHandImg from './Assets/writing-hand-skin-1-svgrepo-com.svg';
+import micImg from './Assets/microphone-svgrepo-com.svg';
+import outdoorsImg from './Assets/camping-svgrepo-com.svg';
 
 
 export default function ImgAndDescription() {
   return (
     <div className="img-description-content-wrapper">
-      <img src={tedImg}></img>
+      <img src={tedImg} className='ted-img-styles'></img>
 
       <div className="title-description-container">
         <h1>Professor Ted Karamanski</h1>
         <h3>
-          <em>Public History Director, Loyola University Chicag</em>o
+          <em>Public History Director, Loyola University Chicago</em>
         </h3>
 
         <div className='attributes-container'>
+          
+          <div className='historian-label-emoji-container'> 
+          
+          <img src={openBookImg} className='book-img-styles'></img>
+          
           <h4>Historian</h4>
+          </div>
+
+          <div className='author-label-emoji-container'>
+          <img src={writingHandImg} className='author-img-styles'></img>
           <h4>Author</h4>
+          </div>
+
+          <div className='speaker-label-emoji-container'>
+          <img src={micImg} className='speaker-mic-img-styles'></img>
           <h4>Speaker</h4>
+          </div>
+
+          <div className='outdoors-label-emoji-container'> 
+          <img src={outdoorsImg} className='outdoors-img-styles'></img>
           <h4>Outdoorsman</h4>
+          </div>
+
+
+
         </div>
 
         <div className="description-container">

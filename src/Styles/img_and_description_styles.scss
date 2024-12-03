@@ -1,24 +1,50 @@
 .img-description-content-wrapper { 
     display: flex;
-    // justify-content: space-between;
-    // align-items: center;
-    // background-color: maroon;
-    padding-top: 2rem;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 3rem;
     gap: 4rem;
     border-bottom: 4px solid gold;
     padding-bottom: 2rem;
     
 }
 
+.book-img-styles,
+.author-img-styles,
+.speaker-mic-img-styles,
+.outdoors-img-styles { 
+    width: 2.5rem;
+    margin-top: 0.6rem;
+}
 
-.img-description-content-wrapper img { 
-    width: 27rem;
-    height: 38rem;
+// .author-img-styles,
+// .speaker-mic-img-styles,
+// .outdoors-img-styles { 
+//     border-left: 2px solid black;
+    
+// }
+
+
+
+.ted-img-styles { 
+    width: 30rem;
+    height: 34rem;
     // height: 100%;
     margin-left: 2rem;
     margin-top: 5rem;
     border-radius: 1rem;
     box-shadow: 12px 12px 2px 1px black;
+}
+
+.historian-label-emoji-container, 
+.author-label-emoji-container,
+.speaker-label-emoji-container,
+.outdoors-label-emoji-container { 
+    display: flex;
+    gap: 1rem;
+    
+    
+    // border-right: 1px solid black;
 }
 
 .title-description-container { 
@@ -29,7 +55,7 @@
 }
 
 .title-description-container h1, h3 { 
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -42,7 +68,7 @@
 .attributes-container h4 { 
     margin-top: 1.2rem;
     font-size: 1.5rem;
-    text-decoration: underline;
+    // text-decoration: underline;
 }
 
 
@@ -57,13 +83,14 @@
 
 .description-container p { 
     max-width: 80rem;
+    font-size: 1.4rem;
 }
 
 .description-contact-me-btn-container { 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    // margin-top: 1rem;
     
 }
 
