@@ -30,3 +30,5 @@
 // play around with spacing and fonts to ensure everything lines up 
 
 // *** need to finish responsiveness for the img and description section 
+
+// get the img and description section responsive 
