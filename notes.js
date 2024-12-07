@@ -31,4 +31,6 @@
 
 // *** need to finish responsiveness for the img and description section 
 
-// get the img and description section responsive 
+// *** get the img and description section responsive 
+
+// make the img taller and font smaller as screen narrows

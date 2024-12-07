@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    // align-items: center;
     padding-top: 3rem;
     gap: 4rem;
     padding-bottom: 2rem;
@@ -27,9 +26,8 @@
 
 
 .ted-img-styles { 
-    width: 40rem;
-    // width: 35vw;
-    height: 34rem;
+    width: 28rem;
+    height: auto;
    
     margin-left: 2rem;
     margin-top: 5rem;
@@ -51,7 +49,7 @@
 .title-description-container { 
     display: flex;
     flex-direction: column;
-
+    flex-wrap: wrap;
     font-family: "Reddit Sans Condensed", sans-serif;
 }
 
@@ -104,13 +102,137 @@
     color: white;
 } 
 
-@media (max-width: 1400px) { 
+
+// media queries
+
+
+@media (max-width: 1606px) { 
+    .img-description-content-wrapper { 
+        padding-top: 9rem;
+    }
+
     .ted-img-styles { 
-        width: 31rem;
+        position: relative;
+        bottom: 8rem;
     }
-
+    
     .description-container p { 
-        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 1495px) { 
+    .ted-img-styles { 
+        position: relative;
+        bottom: 11rem;
+    }
+}
+
+@media (max-width: 1355px) { 
+    .ted-img-styles { 
+        position: relative;
+        bottom: 14rem;
+    }
+}
+
+@media (max-width: 1345px) { 
+    .description-container p { 
+        margin-right: 2rem;
     }
 
+    .title-description-container h1, h3 { 
+        margin-right: 1rem;
+    }
 }
+
+@media (max-width: 1285px) { 
+    .attributes-container { 
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 1199px) { 
+    .img-description-content-wrapper { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    .ted-img-styles { 
+        position: relative;
+        bottom: 0rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-width: 1400px) { 
+//     .ted-img-styles { 
+//         width: 31rem;
+//     }
+
+//     .description-container p { 
+//         font-size: 1.2rem;
+//     }
+
+// }
+
+
+
+
+
+
+
+// @media (max-width: 1423px) { 
+//     .title-description-container { 
+//         padding-top: 6rem;
+//     }
+
+//     .description-contact-me-btn-container button { 
+//         font-size: 1.2rem;
+//     }
+// }
+
+// @media (max-width: 1345px) { 
+//     .ted-img-styles { 
+//         position: relative;
+//         bottom: 2rem;
+//         height: 27rem;
+//         width: 23rem;
+//     }
+// }
+
+// @media (max-width: 1310px) { 
+//     .ted-img-styles { 
+//         bottom: 4rem;
+//     }
+// }
+
+// @media (max-width: 1230px) { 
+//     .img-description-content-wrapper { 
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//     }
+
+  
+// }
