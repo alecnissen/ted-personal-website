@@ -13,7 +13,7 @@ export default function FeaturedBooks() {
       <div className="featured-books-container">
         <Card className="featured-book-container">
           <img src={book1Img}></img>
-          <Card.Body>
+          <Card.Body id="book-card-body">
             <h1>Rally Round the Flag: Chicago and the Civil War</h1>
 
             <p>
@@ -27,7 +27,7 @@ export default function FeaturedBooks() {
 
         <Card className="featured-book-container">
           <img src={book2Img}></img>
-          <Card.Body>
+          <Card.Body id="book-card-body">
             <h1>Deep Woods Frontier: A History of Logging in Northern Michigan</h1>
 
             <p>
@@ -41,7 +41,7 @@ export default function FeaturedBooks() {
 
         <Card className="featured-book-container">
           <img src={book3Img}></img>
-          <Card.Body>
+          <Card.Body id="book-card-body">
             <h1>Mastering The Inland Seas</h1>
 
             <p>
@@ -55,7 +55,7 @@ export default function FeaturedBooks() {
 
         <Card className="featured-book-container">
           <img src={book4Img}></img>
-          <Card.Body>
+          <Card.Body id="book-card-body">
             <h1>Schooner Passage: Sailing Ships and the Lake Michigan Frontier</h1>
 
             <p>

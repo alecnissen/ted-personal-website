@@ -34,3 +34,8 @@
 // *** get the img and description section responsive 
 
 // make the img taller and font smaller as screen narrows
+
+
+// *** 
+
+// make the book section responsive
