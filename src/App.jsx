@@ -12,8 +12,8 @@ function App() {
     <> 
     <Header></Header>
     <ImgAndDescription></ImgAndDescription>
-    {/* <ExpertiseCards></ExpertiseCards>
-    <FeaturedBooks></FeaturedBooks>
+    <ExpertiseCards></ExpertiseCards>
+    {/* <FeaturedBooks></FeaturedBooks>
     <FeaturedLectures></FeaturedLectures>
     <LatestNews></LatestNews>
     <Footer></Footer> */}
