@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: maroon;
+    // background-color: maroon;
 }
 
 .featured-lectures-content-wrapper h1{ 
     text-align: center;
     font-family: "Reddit Sans Condensed", sans-serif;
-    color: white;
+    color: black;
     font-size: 3rem;
     padding-top: 3rem;
 }
@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
     
 }
 
@@ -44,7 +45,7 @@
 
 .featured-lecture-container h1 { 
     font-size: 2rem;
-    color: black;
+    color: white;
     padding-top: 1rem;
 }
 
@@ -64,12 +65,13 @@
 }
 
 .featured-lecture-container { 
-    background-color: white;
+    background-color: maroon;
     text-align: center;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 12px 12px 2px 1px black;
     // width: 29rem;
+    color: silver;
 }
 
 .lecture-description-styles { 
@@ -84,8 +86,8 @@
     padding: 0.5rem;
     border-radius: 1rem;
     font-family: "Reddit Sans Condensed", sans-serif;
-    background-color: maroon;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 1.2rem;
     cursor: pointer;
 }

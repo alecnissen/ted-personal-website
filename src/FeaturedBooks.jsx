@@ -21,7 +21,8 @@ export default function FeaturedBooks() {
               content.
             </p>
 
-            <button>Find Book</button>
+            <button><a href='https://www.amazon.com/Rally-Round-Flag-Chicago-Civil/dp/0742551377' target='_blank'>Find Book</a></button>
+            
           </Card.Body>
         </Card>
 
@@ -35,7 +36,8 @@ export default function FeaturedBooks() {
               content.
             </p>
 
-            <button>Find Book</button>
+            <button><a href='https://www.amazon.com/Deep-Woods-Frontier-Northern-Michigan/dp/081432049X' target='_blank'>Find Book</a></button>
+            
           </Card.Body>
         </Card>
 
@@ -49,7 +51,7 @@ export default function FeaturedBooks() {
               content.
             </p>
 
-            <button>Find Book</button>
+            <button><a href='https://www.amazon.com/Mastering-Inland-Seas-Lighthouses-Navigational/dp/0299326306' target='_blank'>Find Book</a></button>
           </Card.Body>
         </Card>
 
@@ -63,7 +65,7 @@ export default function FeaturedBooks() {
               content.
             </p>
 
-            <button>Find Book</button>
+            <button><a href='https://www.amazon.com/Schooner-Passage-Sailing-Michigan-Frontier/dp/081432911X/ref=sr_1_1?crid=VTO4YIFTVSE8&dib=eyJ2IjoiMSJ9.7hK895d-GZqe6J5hKGlQlg.5jfbCiJKv1z01gaQVtObhKR731nazfjg1ALKLUweFKo&dib_tag=se&keywords=Schooner+Passage%3A+Sailing+Ships+and+the+Lake+Michigan+Frontier&qid=1734034862&s=books&sprefix=schooner+passage+sailing+ships+and+the+lake+michigan+frontier%2Cstripbooks%2C127&sr=1-1' target='_blank'>Find Book</a></button>
           </Card.Body>
         </Card>
       </div>

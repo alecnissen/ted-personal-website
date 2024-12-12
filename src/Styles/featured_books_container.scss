@@ -1,5 +1,7 @@
 .featured-books-content-wrapper { 
     background-color: maroon;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
+    padding-bottom: 2rem;
 }
 
 .featured-books-content-wrapper h1 { 
@@ -19,6 +21,15 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: auto
+}
+
+.featured-book-container p { 
+    font-size: 1.2rem;
+}
+
+.featured-book-container button a { 
+    color: inherit;
+    text-decoration: none;
 }
 
 .card-body { 
