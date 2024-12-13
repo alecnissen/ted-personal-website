@@ -17,7 +17,7 @@
 .featured-lectures-video-container { 
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: stretch;
     gap: 3rem;
     flex-wrap: wrap;
     padding-top: 2rem;
@@ -28,7 +28,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+    
+    width: 35rem; /* To ensure uniform width */
+    /* To fix the height across cards */
     
 }
 
@@ -44,7 +46,7 @@
 }
 
 .featured-lecture-container h1 { 
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
     padding-top: 1rem;
 }
@@ -92,4 +94,67 @@
     cursor: pointer;
 }
 
+
+@media (max-width: 700px) { 
+    .featured-lecture-container { 
+        width: 28rem;
+    }
+
+    .lecture-img-2-styles { 
+        width: 22rem;
+    }
+
+    // .featured-lectures-content-wrapper h1 { 
+    //     font-size: 2.5rem;
+    // }
+
+    .featured-lectures-content-wrapper h1 { 
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px) { 
+    .lecture-description-styles,
+    .watch-lecture-btn-styles { 
+        font-size: 1rem;
+    }
+
+    .featured-lecture-container { 
+        width: 25rem;
+    }
+
+    .lecture-img-2-styles { 
+        width: 20rem;
+        height: 10rem;
+    } 
+
+} 
+
+@media (max-width: 445px) { 
+    .featured-lecture-container { 
+        width: 22rem;
+    }
+
+    .lecture-img-2-styles { 
+        width: 18rem;
+        height: 8rem;
+    } 
+}
+
+@media (max-width: 385px) { 
+    .featured-lecture-container { 
+        width: 19rem;
+    }
+
+    .lecture-img-2-styles { 
+        width: 16rem;
+        height: 8rem;
+    } 
+}
+
+@media (max-width: 345px) { 
+    .featured-lecture-container { 
+        width: 17rem;
+    }
+}
 

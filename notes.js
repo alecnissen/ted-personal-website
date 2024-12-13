@@ -39,3 +39,7 @@
 // *** 
 
 // make the book section responsive
+
+// **** make lecture section responsive 
+
+// make sure cards are the same size regardless of content 
