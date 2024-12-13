@@ -8,6 +8,7 @@
     padding: 2rem;
     color: white;
     gap: 1rem;
+    text-align: center;
 }
 
 .footer-content-wrapper h1 { 
@@ -21,4 +22,28 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
+
+.footer-nav-links-container p:hover { 
+    text-decoration: underline;
+    text-decoration-color: rgb(224, 191, 0);
+    color: rgb(224, 191, 0);
+}
+
+
+@media (max-width: 400px) { 
+    .footer-content-wrapper h1 { 
+        font-size: 2rem;
+    }
+
+    .footer-content-wrapper h4  { 
+        font-size: 1.2rem;
+    }
+
+    .footer-nav-links-container p { 
+        font-size: 0.8rem;
+    }
+}
+
+

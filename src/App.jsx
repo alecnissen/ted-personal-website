@@ -16,7 +16,7 @@ function App() {
     <FeaturedBooks></FeaturedBooks>
     <FeaturedLectures></FeaturedLectures>
     <LatestNews></LatestNews>
-    {/* <Footer></Footer> */}
+    <Footer></Footer>
     </>
   )
 }
