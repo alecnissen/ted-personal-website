@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: maroon;
+    background-color: white;
     padding: 2rem;
 }
 
 .latest-news-content-wrapper h1 { 
     text-align: center;
     font-family: "Reddit Sans Condensed", sans-serif;
-    color: white;
+    color: black;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     width: 47rem; 
-    background-color: white;
+    background-color: maroon;
     border-radius: 0.5rem;
     box-shadow: 12px 12px 2px 1px black;
     
@@ -34,7 +34,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 100%;
+    // width: 100%;
+    flex-wrap: wrap;
 }
 
 .news-content-container li { 
@@ -42,9 +43,67 @@
     padding: 0.5rem;
     list-style-position: outside; /* Ensure bullet points are outside the text */
     text-align: left;
-    
+    color: white;
+}
+
+.news-content-container a { 
+    color: silver;
+    text-decoration: none;
 }
 
 .news-content-container li a:hover { 
     color: rgb(224, 191, 0);
+}
+
+
+@media (max-width: 800px) { 
+    .news-content-container li { 
+        font-size: 1rem;
+    }
+
+    // .news-content-container li { 
+    //     text-align: center;
+    // }
+
+    .news-container { 
+        width: 40rem;
+    }
+}
+
+
+
+@media (max-width: 700px) { 
+    .latest-news-content-wrapper h1 { 
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 670px) { 
+    .news-container { 
+        width: 35rem;
+    }
+} 
+
+@media (max-width: 580px) { 
+    .news-container { 
+        width: 30rem;
+    }
+}
+
+@media (max-width: 500px) { 
+    .news-container { 
+        width: 25rem;
+    }
+}
+
+@media (max-width: 420px) { 
+    .news-container { 
+        width: 20rem;
+    }
+}
+
+@media (max-width: 350px) { 
+    .news-container { 
+        width: 17rem;
+    }
 }
