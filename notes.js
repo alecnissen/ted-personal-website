@@ -43,3 +43,11 @@
 // **** make lecture section responsive 
 
 // make sure cards are the same size regardless of content 
+
+// **** 
+
+// be able to tab switch to the biography page 
+
+// bring up the an example from a previous project 
+
+// but I think first you will need to put the homepage into one component, 
