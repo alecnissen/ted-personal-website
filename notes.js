@@ -51,3 +51,5 @@
 // bring up the an example from a previous project 
 
 // but I think first you will need to put the homepage into one component, 
+
+// swtich to bio page, make the component and make the route

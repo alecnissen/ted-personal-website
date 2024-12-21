@@ -4,6 +4,9 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import hamburgerMenuImg from './Assets/hamburger-menu-svgrepo-com (3).svg'
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 
 export default function Header() {
 
@@ -18,8 +21,12 @@ export default function Header() {
     <div className='header-wrapper'>
     
     <div className='header-button-links-container'>
+        <NavLink>
         <button>Home</button>
+        </NavLink>
+        <NavLink to="/BiographyPage">
         <button>Biography</button>
+        </NavLink>
         <button>Publications & Lectures</button>
         <button>Gallery</button>
         <button>Contact</button>
