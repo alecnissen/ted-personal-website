@@ -1,3 +1,9 @@
+.biography-page-content-wrapper { 
+    padding: 2rem;
+    // display: flex;
+    // flex-direction: column;
+}
+
 .biography-page-header-text { 
     padding-top: 5rem;
     text-align: center;
@@ -7,23 +13,24 @@
 
 .biography-page-content-container { 
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
+    padding: 2rem;
+}
+
+.biography-page-row-container {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 2rem;
-    font-family: "Reddit Sans Condensed", sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
-}
-
-
-
-.biography-page-content-wrapper { 
-    
-    padding: 2rem;
+    margin-top: 2rem;
 }
 
 .biography-page-img-styles { 
-    width: 35rem;
+    width: 37rem;
     border-radius: 1rem;
     box-shadow: 7px 7px 2px 1px black;
 }
@@ -31,11 +38,8 @@
 .biography-page-description-container { 
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
-    // align-items: flex-start;
     text-align: center;
     padding: 4rem;
-    
 }
 
 .biography-page-content-container p { 
@@ -91,3 +95,106 @@
     border-radius: 1rem;
     font-size: 1.2rem;
 }
+
+
+
+// .biography-page-header-text { 
+//     padding-top: 5rem;
+//     text-align: center;
+//     padding-bottom: 1rem;
+//     font-family: "Reddit Sans Condensed", sans-serif;
+// }
+
+// .biography-page-content-container { 
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: row;
+//     gap: 2rem;
+//     font-family: "Reddit Sans Condensed", sans-serif;
+//     box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
+// }
+
+
+
+// .biography-page-content-wrapper { 
+//     padding: 2rem;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .biography-page-img-styles { 
+//     width: 35rem;
+//     border-radius: 1rem;
+//     box-shadow: 7px 7px 2px 1px black;
+// }
+
+// .biography-page-description-container { 
+//     display: flex;
+//     flex-direction: column;
+//     // justify-content: space-between;
+//     // align-items: flex-start;
+//     text-align: center;
+//     padding: 4rem;
+    
+// }
+
+// .biography-page-content-container p { 
+//     font-size: 1.5rem;
+//     max-width: 60rem;
+// }
+
+// .biography-cards-container { 
+//     display: flex;
+//     justify-content: center;
+//     align-items: stretch;
+//     margin-top: 3rem;
+//     gap: 2rem;
+// }
+
+// .biography-card { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     font-family: "Reddit Sans Condensed", sans-serif;
+//     box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
+//     background-color: maroon;
+//     padding: 2rem;
+//     color: white;
+//     font-size: 1.4rem;
+//     width: 17rem;
+//     text-align: center;
+//     border-radius: 1rem;
+//     gap: 1rem;
+// }
+
+// .biography-card img { 
+//     width: 6rem;
+// }
+
+// .bio-page-closing-quote-container { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 3rem;
+// }
+
+// .bio-page-closing-quote-container p { 
+//     display: flex;
+//     flex-direction: column;
+//     max-width: 50rem;
+//     box-shadow: 7px 7px 2px 1px black;
+//     border: 2px solid black;
+//     padding: 1rem;
+//     text-align: center;
+//     border-radius: 1rem;
+//     font-size: 1.2rem;
+// }
+
+
+// .biography-header-text-container{ 
+//     display: flex;
+//     flex-direction: column;
+// }
