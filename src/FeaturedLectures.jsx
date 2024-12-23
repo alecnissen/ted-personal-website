@@ -30,9 +30,9 @@ export default function FeaturedLectures() {
           <img src={img1} className="lecture-img-2-styles"></img>
 
           <Card.Body>
-            <p className='lecture-description-styles'>
+            {/* <p className='lecture-description-styles'>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti harum repellendus doloremque maxime sit ut, explicabo architecto rem commodi, a suscipit magnam, numquam odit asperiores ex fuga. Fugit, suscipit.
-            </p>
+            </p> */}
 
             <a href="https://www.youtube.com/watch?v=PElhjHIbyd0" target="_blank">
             <button className='watch-lecture-btn-styles'>Watch Lecture</button>
@@ -49,9 +49,9 @@ export default function FeaturedLectures() {
           <img src={img2} className="lecture-img-2-styles"></img>
 
           <Card.Body>
-            <p className='lecture-description-styles'>
+            {/* <p className='lecture-description-styles'>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti harum repellendus doloremque maxime sit ut, explicabo architecto rem commodi, a suscipit magnam, numquam odit asperiores ex fuga. Fugit, suscipit.
-            </p>
+            </p> */}
 
             <a href="https://www.youtube.com/watch?v=qh3JLgjEKkk&t=148s" target="_blank">
             <button className='watch-lecture-btn-styles'>Watch Lecture</button>
@@ -68,9 +68,9 @@ export default function FeaturedLectures() {
           <img src={img3} className="lecture-img-2-styles"></img>
 
           <Card.Body>
-            <p className='lecture-description-styles'>
+            {/* <p className='lecture-description-styles'>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti harum repellendus doloremque maxime sit ut, explicabo architecto rem commodi, a suscipit magnam, numquam odit asperiores ex fuga. Fugit, suscipit.
-            </p>
+            </p> */}
 
             <a href="https://www.youtube.com/watch?v=_7IKl0tDXEA&t=161s" target="_blank">
             <button className='watch-lecture-btn-styles'>Watch Lecture</button>

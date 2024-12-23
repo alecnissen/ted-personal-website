@@ -21,7 +21,7 @@ export default function Header() {
     <div className='header-wrapper'>
     
     <div className='header-button-links-container'>
-        <NavLink>
+        <NavLink to="/">
         <button>Home</button>
         </NavLink>
         <NavLink to="/BiographyPage">

@@ -53,3 +53,33 @@
 // but I think first you will need to put the homepage into one component, 
 
 // swtich to bio page, make the component and make the route
+
+// get a picture for the bio
+
+
+
+
+// *** 
+
+// thinking of the rest of the strucutre of the bio page 
+
+// thinking about 3 cards, with some selling points, 
+
+// what makes you unique? 
+
+// USE CARDS! 
+
+// Loyoal University Chicago, 25+ years experience, public history department 
+
+// Traveling public historian, lecturuer, cruises that he did, where? 
+
+//  TV apperances,
+
+// 10 books, 100 articles, or amount of books and articles written 
+
+// close with a STATEMENT? 
+
+// MY GOAL IS TO .... bring awareness to history and the importance of it ??? 
+
+
+

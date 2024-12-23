@@ -1,0 +1,46 @@
+.biography-page-header-text { 
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.biography-page-content-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.biography-page-content-wrapper { 
+    padding: 2rem;
+}
+
+.biography-page-img-styles { 
+    width: 40rem;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 2px 1px black;
+}
+
+.biography-page-description-container { 
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    // align-items: flex-start;
+    text-align: center;
+}
+
+.biography-page-content-container p { 
+    font-size: 1.5rem;
+    max-width: 60rem;
+}
+
+.biography-cards-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 2rem;
+}
