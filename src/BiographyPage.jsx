@@ -56,6 +56,16 @@ export default function BiographyPage() {
         </div>
 
         
+        <div className='bio-page-closing-quote-container'> 
+        <p><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum distinctio fugiat laborum commodi ipsa provident illo cupiditate temporibus iure aliquam repellat architecto, dolor nisi earum, molestiae porro id. Quos?
+        Animi iure aliquid quaerat qui laborum vel architecto dolores commodi! Quo a vero nemo velit minima quasi, eaque officiis voluptatibus dicta porro ea explicabo iusto ipsum, ut ad tenetur enim!
+        Eius optio omnis veritatis, asperiores ut magni similique, hic sed temporibus unde quasi a repudiandae? Dicta harum, illo amet quaerat ab eos dolore voluptates possimus itaque optio, numquam ratione quia.</i>
+        
+        <br></br>
+        
+        <i><em><b>- Ted Karamanski</b></em></i>
+        </p>
+        </div>
 
 
       </div>
