@@ -2,16 +2,20 @@ import React from 'react';
 import Header from './Header';
 import bioPageImg from './Assets/2023.field.trip.2.jpg';
 import Footer from "./Footer"
+import capImg from "./Assets/teacher-svgrepo-com (1).svg"
+import travelImg from "./Assets/travel-svgrepo-com.svg"
+import bookImg from "./Assets/books-stack-of-three-svgrepo-com.svg"
+import tvImg from "./Assets/flatscreen-tv-svgrepo-com.svg"
 
 export default function BiographyPage() {
   return (
     <>
       <Header></Header>
       <div className="biography-page-content-wrapper">
+        
         <h1 className="biography-page-header-text">
           Biography - Connecting people through history
         </h1>
-
         <div className="biography-page-content-container">
           <img src={bioPageImg} className="biography-page-img-styles"></img>
 
@@ -34,20 +38,24 @@ export default function BiographyPage() {
 
         <div className='biography-cards-container'> 
           <div className='biography-card'> 
-            Card 1
+            25+ Years Teaching Experience
+            <img src={capImg}></img>
           </div>
           <div className='biography-card'> 
-            Card 1
+          Traveling Public Historian & Speaker
+          <img src={travelImg}></img>
           </div>
           <div className='biography-card'> 
-            Card 1
+            Author of 10 Historical Books 
+            <img src={bookImg}></img>
           </div>
           <div className='biography-card'> 
-            Card 1
+            TV Apperances on the History Channel
+            <img src={tvImg}></img>
           </div>
         </div>
 
-
+        
 
 
       </div>
