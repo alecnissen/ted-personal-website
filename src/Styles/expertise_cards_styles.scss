@@ -32,6 +32,9 @@
 .expertise-cards-container { 
     gap: 1rem;
     flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
 }
 
 .expertise-card { 
@@ -43,7 +46,7 @@
     font-family: "Reddit Sans Condensed", sans-serif;
     padding: 1rem;
     border-radius: 1rem;
-    width: 20rem;
+    width: 23rem;
     box-shadow: 12px 12px 2px 1px black;
     flex-wrap: wrap;
 }

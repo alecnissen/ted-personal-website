@@ -3,6 +3,9 @@ import indianSvg from './Assets/indian-1-svgrepo-com.svg';
 import civilWarImg from './Assets/lincoln-2-svgrepo-com.svg';
 import militaryImg from './Assets/military-medal-svgrepo-com.svg';
 import vikingImg from './Assets/viking-svgrepo-com.svg';
+import anchorImg from './Assets/boat-anchor-svgrepo-com (1).svg';
+import publicHistoryImg from './Assets/library-book-svgrepo-com.svg';
+import environmentIcon from './Assets/planet-earth-world-earth-svgrepo-com.svg'
 
 export default function ExpertiseCards() {
   return (
@@ -16,6 +19,26 @@ export default function ExpertiseCards() {
 
         <div className='expertise-cards-container'>
 
+
+
+
+        <div className='expertise-card'>
+                <h1>Maritime History</h1>
+                
+                <div className='expertise-img-container'>
+                <img src={anchorImg}></img>
+                </div>
+
+        </div>
+
+        <div className='expertise-card'>
+                <h1>Public History</h1>
+                
+                <div className='expertise-img-container'>
+                <img src={publicHistoryImg}></img>
+                </div>
+
+        </div>
 
             <div className='expertise-card'>
                 <h1>Indian History</h1>
@@ -49,6 +72,15 @@ export default function ExpertiseCards() {
                 
                 <div className='expertise-img-container'>
                 <img src={vikingImg}></img>
+                </div>
+
+            </div>
+
+            <div className='expertise-card'>
+                <h1>Environment History</h1>
+                
+                <div className='expertise-img-container'>
+                <img src={environmentIcon}></img>
                 </div>
 
             </div>
