@@ -44,8 +44,16 @@ export default function Header() {
 
         <div className='offcanvas-header-navlinks-styles'> 
 
+        {/* <button>Home</button>
+        <button>Biography</button> */}
+
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Home</button>
+        </NavLink>
+        <NavLink to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Biography</button>
+        </NavLink>
+
         <button>Publications & Lectures</button>
         <button>Gallery</button>
         <button>Contact</button>
