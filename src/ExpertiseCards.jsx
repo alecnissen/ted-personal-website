@@ -6,6 +6,7 @@ import vikingImg from './Assets/viking-svgrepo-com.svg';
 import anchorImg from './Assets/boat-anchor-svgrepo-com (1).svg';
 import publicHistoryImg from './Assets/library-book-svgrepo-com.svg';
 import environmentIcon from './Assets/planet-earth-world-earth-svgrepo-com.svg'
+import canadianHistoryIcon from './Assets/maple-leaf-svgrepo-com.svg';
 
 export default function ExpertiseCards() {
   return (
@@ -50,7 +51,7 @@ export default function ExpertiseCards() {
             </div>
 
             <div className='expertise-card'>
-                <h1>Civil War</h1>
+                <h1>Civil War History</h1>
                 
                 <div className='expertise-img-container'>
                 <img src={civilWarImg}></img>
@@ -68,10 +69,19 @@ export default function ExpertiseCards() {
             </div>
 
             <div className='expertise-card'>
-                <h1>Vikings</h1>
+                <h1>Viking History</h1>
                 
                 <div className='expertise-img-container'>
                 <img src={vikingImg}></img>
+                </div>
+
+            </div>
+
+            <div className='expertise-card'>
+                <h1>Canadian History</h1>
+                
+                <div className='expertise-img-container'>
+                <img src={canadianHistoryIcon}></img>
                 </div>
 
             </div>

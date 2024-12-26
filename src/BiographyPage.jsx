@@ -23,7 +23,7 @@ export default function BiographyPage() {
 
             <div className="biography-page-description-container">
               <h1>Bringing The Joy And Wonder of Public History</h1>
-              <h1>Connecting people through history</h1>
+              <h1>Connecting People Through History</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores voluptatum
                 dignissimos reprehenderit repellat ullam sint, molestias nisi placeat soluta expedita

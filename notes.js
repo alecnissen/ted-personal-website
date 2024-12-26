@@ -83,3 +83,15 @@
 
 
 
+// *** 
+
+// put 1 more card in the expertise section // added canadian history, will have to confirm with him 
+
+// *** 
+
+// next use react to ensure the user knows what page he is on, 
+
+// an underline will indicate what page the user is currently on, 
+
+// look back at previous example and implement
+ 
