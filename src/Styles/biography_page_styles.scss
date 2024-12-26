@@ -1,8 +1,4 @@
-.biography-page-content-wrapper { 
-    padding: 3rem;
-    // display: flex;
-    // flex-direction: column;
-}
+
 
 .biography-page-header-text { 
     padding-top: 5rem;
@@ -17,7 +13,7 @@
     gap: 2rem;
     font-family: "Reddit Sans Condensed", sans-serif;
     box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .biography-page-row-container {
@@ -39,11 +35,11 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 4rem;
+    padding: 1.5rem;
 }
 
 .biography-page-content-container p { 
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     max-width: 60rem;
 }
 
