@@ -72,6 +72,15 @@
     background-color: white !important;
 }
 
+.active-link button { 
+    text-decoration: underline !important;
+    text-underline-offset: 0.6rem;
+}
+
+.non-active-link button { 
+    text-decoration: none !important;
+}
+
 
 // media queries: 
 

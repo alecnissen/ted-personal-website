@@ -21,10 +21,10 @@ export default function Header() {
     <div className='header-wrapper'>
     
     <div className='header-button-links-container'>
-        <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Home</button>
         </NavLink>
-        <NavLink to="/BiographyPage">
+        <NavLink to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Biography</button>
         </NavLink>
         <button>Publications & Lectures</button>
