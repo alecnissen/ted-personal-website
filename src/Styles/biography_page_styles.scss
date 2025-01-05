@@ -49,6 +49,7 @@
     align-items: stretch;
     margin-top: 3rem;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .biography-card { 
@@ -92,6 +93,139 @@
     font-size: 1.2rem;
 }
 
+// media queries 
+
+@media (max-width: 1500px) { 
+    .biography-page-content-container p { 
+        font-size: 1.2rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 2.2rem;
+    }
+
+    .biography-page-img-styles { 
+        width: 34rem
+    }
+} 
+
+@media (max-width: 1400px) { 
+    .biography-page-content-container p { 
+        font-size: 1.1rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 2rem;
+    }
+
+    .biography-page-img-styles { 
+        width: 30rem
+    }
+}
+
+@media (max-width: 1290px) { 
+    .biography-page-img-styles { 
+        width: 27rem
+    }
+}
+
+@media (max-width: 1150px) { 
+    .biography-page-row-container { 
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .biography-page-content-container p { 
+        font-size: 1.4rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 2.4rem;
+    }
+
+    .biography-page-img-styles { 
+        width: 36rem
+    }
+
+
+}
+
+
+@media (max-width: 768px) { 
+    .biography-page-img-styles { 
+        width: 29rem;
+        margin-top: 1rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 1.8rem;
+    }
+
+    .biography-page-content-container p { 
+        font-size: 1.2rem;
+    }
+
+    .biography-page-content-container { 
+        padding: 2rem;
+    }
+
+    .biography-page-description-container { 
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) { 
+    .biography-page-img-styles { 
+        width: 24rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 1.5rem;
+    }  
+    
+    .biography-page-content-container p { 
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 504px) { 
+    .biography-page-row-container { 
+        margin-top: 4rem;
+    }
+
+
+}
+
+@media (max-width: 440px) { 
+    .biography-page-img-styles { 
+        width: 21rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 1.4rem;
+    }  
+}
+
+@media (max-width: 420px) { 
+    .biography-page-row-container { 
+        margin-top: 5rem;
+    }
+
+    .biography-page-description-container h1 { 
+        font-size: 1.35rem;
+    } 
+}
+
+
+
+
+
+
+
+
+
+// old code 
 
 
 // .biography-page-header-text { 

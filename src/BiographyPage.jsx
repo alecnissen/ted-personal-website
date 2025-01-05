@@ -18,6 +18,7 @@ export default function BiographyPage() {
           </h1> */}
 
           <div className="biography-page-row-container">
+          
             <img src={bioPageImg} className="biography-page-img-styles"></img>
 
             <div className="biography-page-description-container">
