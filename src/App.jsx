@@ -9,6 +9,7 @@ import Homepage from "./Homepage"
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from 'react-router-dom';
 import BiographyPage from "./BiographyPage"
+import Publications from "./Publications"
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
     <Route path="/" element={<Homepage />}></Route>
 
     <Route path="/BiographyPage" element={<BiographyPage></BiographyPage>}></Route>
+
+    <Route path="/Publications" element={<Publications></Publications>}></Route>
+
+
 
 
 

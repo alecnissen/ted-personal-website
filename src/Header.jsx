@@ -27,7 +27,9 @@ export default function Header() {
         <NavLink to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Biography</button>
         </NavLink>
+        <NavLink to="/Publications" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Publications & Lectures</button>
+        </NavLink>
         <button>Gallery</button>
         <button>Contact</button>
     </div>
@@ -53,8 +55,10 @@ export default function Header() {
         <NavLink to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Biography</button>
         </NavLink>
-
+        <NavLink to="/Publications" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Publications & Lectures</button>
+        </NavLink>
+
         <button>Gallery</button>
         <button>Contact</button>
 

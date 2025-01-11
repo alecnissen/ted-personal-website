@@ -1,0 +1,60 @@
+.publications-page-content-wrapper { 
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.publications-header-text { 
+    text-align: center;
+    padding-top: 6.5rem;
+}
+
+.publications-page-content-container { 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.publications-card { 
+    width: 20rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+#publications-card-body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // width: 20rem;
+    padding: 1rem;
+    background-color: maroon;
+    color: white;
+    flex: 1;
+}
+
+.publications-button-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.publications-button-container button { 
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    // margin-top: auto;
+}
+
+.publications-button-container a { 
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.publications-card h1 { 
+    font-size: 1.2rem;
+    text-align: center;
+}
