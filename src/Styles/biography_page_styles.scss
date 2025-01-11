@@ -93,6 +93,12 @@
     font-size: 1.2rem;
 }
 
+.biography-cards-content-container { 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
 // media queries 
 
 @media (max-width: 1500px) { 
@@ -129,6 +135,12 @@
     }
 }
 
+@media (max-width: 1185px) { 
+    .biography-card { 
+        width: 15rem;
+    }
+}
+
 @media (max-width: 1150px) { 
     .biography-page-row-container { 
         flex-direction: column;
@@ -147,7 +159,26 @@
         width: 36rem
     }
 
+    .biography-page-content-container { 
+        padding: 2rem;
+    }
 
+    .biography-page-row-container { 
+        margin-top: 4rem;
+    }
+
+
+}
+
+@media (max-width: 1056px) { 
+     .biography-cards-container { 
+         
+        max-width: 40rem;
+     }
+
+     .biography-card { 
+        width: 19rem;
+     }
 }
 
 
@@ -172,7 +203,13 @@
     .biography-page-description-container { 
         padding: 0;
     }
-}
+} 
+
+// @media (max-width: 640px) { 
+//     .biography-card { 
+//         width: 21rem;
+//     }
+// }
 
 @media (max-width: 600px) { 
     .biography-page-img-styles { 
@@ -213,8 +250,22 @@
     }
 
     .biography-page-description-container h1 { 
-        font-size: 1.35rem;
+        font-size: 1.35rem; 
     } 
+
+    .biography-page-img-styles { 
+        width: 19rem;
+    }
+}
+
+@media (max-width: 400px) { 
+    .biography-card { 
+        width: 17rem;
+    }
+
+    .biography-page-img-styles { 
+        width: 18rem;
+    }
 }
 
 

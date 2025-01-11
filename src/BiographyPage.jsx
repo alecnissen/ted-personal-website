@@ -47,6 +47,7 @@ export default function BiographyPage() {
           </div>
         </div>
 
+        <div className='biography-cards-content-container'> 
         <div className="biography-cards-container">
           <div className="biography-card">
             25+ Years Teaching Experience
@@ -65,6 +66,9 @@ export default function BiographyPage() {
             <img src={tvImg}></img>
           </div>
         </div>
+        </div>
+
+
 
         <div className="bio-page-closing-quote-container">
           <p>
