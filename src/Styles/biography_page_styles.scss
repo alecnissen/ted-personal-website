@@ -181,6 +181,13 @@
      }
 }
 
+@media (max-width: 830px) { 
+    .bio-page-closing-quote-container p { 
+        font-size: 1.1rem;
+        max-width: 40rem;
+    }
+}
+
 
 @media (max-width: 768px) { 
     .biography-page-img-styles { 
