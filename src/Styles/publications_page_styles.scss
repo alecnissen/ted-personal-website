@@ -64,3 +64,18 @@
     font-size: 1.2rem;
     text-align: center;
 }
+
+@media (max-width: 655px) { 
+    .publications-page-content-container { 
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 504px) { 
+.publications-header-text { 
+    text-align: center;
+    padding-top: 8rem;
+}
+
+
+}
