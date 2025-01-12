@@ -1,5 +1,10 @@
 .publications-page-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Reddit Sans Condensed", sans-serif;
+    padding-bottom: 2rem;
 }
 
 .publications-header-text { 
@@ -14,6 +19,7 @@
     flex-wrap: wrap;
     margin-top: 2rem;
     gap: 1rem;
+    max-width: 90rem;
 }
 
 .publications-card { 
