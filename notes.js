@@ -94,4 +94,8 @@
 // an underline will indicate what page the user is currently on, 
 
 // look back at previous example and implement
+
+// *** 
+
+// organize publications into different sections 
  
