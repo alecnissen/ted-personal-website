@@ -10,6 +10,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from 'react-router-dom';
 import BiographyPage from "./BiographyPage"
 import Publications from "./Publications"
+import GalleryPage from "./GalleryPage"
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
     <Route path="/BiographyPage" element={<BiographyPage></BiographyPage>}></Route>
 
     <Route path="/Publications" element={<Publications></Publications>}></Route>
+
+    <Route path="/GalleryPage" element={<GalleryPage></GalleryPage>}></Route>
 
 
 

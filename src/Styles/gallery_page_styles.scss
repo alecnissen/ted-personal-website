@@ -1,0 +1,20 @@
+.gallery-page-content-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallery-page-img-container { 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+}
+
+.gallery-page-img-container img { 
+    width: 23rem;
+    border-radius: 1rem;
+}

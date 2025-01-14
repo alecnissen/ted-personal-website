@@ -98,4 +98,9 @@
 // *** 
 
 // organize publications into different sections 
- 
+ // *** 
+// another publication in the email !!!
+
+
+
+// consider making a container of photos that go together // group relevant photos together 
