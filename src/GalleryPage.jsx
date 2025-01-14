@@ -13,7 +13,11 @@ import tedImg9 from './Assets/IMG_0615.jpeg'
 import tedImg10 from './Assets/IMG_3217.jpeg'
 import tedImg11 from './Assets/Karamanski.WTTW.Interview. 2018.png'
 import tedImg12 from './Assets/Public.Hist.Public.Program.jpg'
+import tedImg13 from './Assets/2022.Lincoln.Karamanski (1).png'
+import tedImg14 from './Assets/IMG_8855.jpeg'
+import tedImg15 from './Assets/Northern Ontario 1980.jpg'
 import Carousel from 'react-bootstrap/Carousel';
+
 
 
 export default function GalleryPage() {
@@ -47,6 +51,122 @@ export default function GalleryPage() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg15}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg6}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg5}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg4}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg9}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg10}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg14}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg11}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg12}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={tedImg7}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+
+
+      <Carousel.Item>
+      <img src={tedImg13}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+
     </Carousel>
 
 
