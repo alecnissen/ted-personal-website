@@ -7,6 +7,18 @@
     
 }
 
+.gallery-img-slider { 
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    
+}
+
+.gallery-img-slider img {
+    width: 40rem;
+    height: 40rem; /* Add this to fix height */
+    object-fit: cover; /* Ensures consistent image display */
+}
+
 .gallery-page-img-container-1 { 
     display: flex;
     justify-content: center;
@@ -17,7 +29,7 @@
 }
 
 .gallery-page-img-container-1 img { 
-    width: 23rem;
+    width: 31rem;
     border-radius: 1rem;
 }
 

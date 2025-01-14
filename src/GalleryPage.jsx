@@ -13,6 +13,7 @@ import tedImg9 from './Assets/IMG_0615.jpeg'
 import tedImg10 from './Assets/IMG_3217.jpeg'
 import tedImg11 from './Assets/Karamanski.WTTW.Interview. 2018.png'
 import tedImg12 from './Assets/Public.Hist.Public.Program.jpg'
+import Carousel from 'react-bootstrap/Carousel';
 
 
 export default function GalleryPage() {
@@ -20,12 +21,40 @@ export default function GalleryPage() {
     <> 
     <Header></Header>
     <div className='gallery-page-content-wrapper'>
+
+
+    <Carousel className='gallery-img-slider'>
+      <Carousel.Item>
+      <img src={tedImg1}></img>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={tedImg2}></img>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={tedImg3}></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+
       
-        <div className='gallery-page-img-container-1'> 
+        {/* <div className='gallery-page-img-container-1'> 
             
             <img src={tedImg1}></img>
             <img src={tedImg2}></img>
-            <img src={tedImg3}></img>
             <img src={tedImg6}></img>
         </div>
 
@@ -40,7 +69,9 @@ export default function GalleryPage() {
         <img src={tedImg10}></img>
         <img src={tedImg11}></img>
         <img src={tedImg12}></img>
-        </div>
+        </div> */}
+
+
 
 
     </div>

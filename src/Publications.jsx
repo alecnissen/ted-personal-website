@@ -223,7 +223,18 @@ export default function Publications() {
 
         
 
+        <Card className="publications-card">
+          <Card.Body id="publications-card-body">
+            <h1>State Citizenship As a Tool of Indian Persistence (Article)</h1>
 
+        
+
+            <div className='publications-button-container'> 
+            <button><a href='https://ecommons.luc.edu/social_justice/17/' target='_blank'>Learn More</a></button>
+            </div>
+
+          </Card.Body>
+        </Card>
 
 
 

@@ -58,7 +58,7 @@ export default function BiographyPage() {
             <img src={travelImg}></img>
           </div>
           <div className="biography-card">
-            Author of 10 Historical Books
+            Author of 12 Historical Books
             <img src={bookImg}></img>
           </div>
           <div className="biography-card">
