@@ -11,6 +11,9 @@ import tedImg7 from './Assets/New_Karamanski_picture1 (2).jpg'
 import tedImg8 from './Assets/Image-1.jpeg'
 import tedImg9 from './Assets/IMG_0615.jpeg'
 import tedImg10 from './Assets/IMG_3217.jpeg'
+import tedImg11 from './Assets/Karamanski.WTTW.Interview. 2018.png'
+import tedImg12 from './Assets/Public.Hist.Public.Program.jpg'
+
 
 export default function GalleryPage() {
   return (
@@ -31,7 +34,12 @@ export default function GalleryPage() {
             <img src={tedImg5}></img>
             <img src={tedImg8}></img>
             <img src={tedImg9}></img>
-            {/* <img src={tedImg10}></img> */}
+        </div>
+
+        <div className='gallery-page-img-container-3'> 
+        <img src={tedImg10}></img>
+        <img src={tedImg11}></img>
+        <img src={tedImg12}></img>
         </div>
 
 
