@@ -110,3 +110,13 @@
 // put a description under each image 
 
 // then move onto the contact form section
+
+// *** 
+
+// link to the contact tab first
+
+// *** 
+
+// can the form information be sent to an email
+
+// make the contact page responsive

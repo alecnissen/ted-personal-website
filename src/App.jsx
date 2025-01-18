@@ -11,6 +11,7 @@ import { Route, Routes } from 'react-router-dom';
 import BiographyPage from "./BiographyPage"
 import Publications from "./Publications"
 import GalleryPage from "./GalleryPage"
+import Contact from "./Contact"
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
     <Route path="/Publications" element={<Publications></Publications>}></Route>
 
     <Route path="/GalleryPage" element={<GalleryPage></GalleryPage>}></Route>
+
+    <Route path="/Contact" element={<Contact></Contact>}></Route>
 
 
 

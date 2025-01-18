@@ -33,8 +33,11 @@ export default function Header() {
         <NavLink to="/GalleryPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Gallery</button>
         </NavLink>
-        
+
+        <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Contact</button>
+        </NavLink>
+
     </div>
 
 

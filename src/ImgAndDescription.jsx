@@ -1,28 +1,16 @@
 import React from 'react';
 import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
-// import tedImg from './Assets/Public.Hist.The.Thinker_kxubjm_c_scale,w_649.jpg'
 import openBookImg from './Assets/open-book-svgrepo-com.svg';
 import writingHandImg from './Assets/writing-hand-skin-1-svgrepo-com.svg';
 import micImg from './Assets/microphone-svgrepo-com.svg';
 import outdoorsImg from './Assets/camping-svgrepo-com.svg';
+import { NavLink } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 
 export default function ImgAndDescription() {
   return (
     <div className="img-description-content-wrapper">
       <img src={tedImg} className="ted-img-styles"></img>
-
-      {/* <img
-        srcSet={`
-    ./assets/Public.Hist.The.Thinker_ib3hax_c_scale,w_200.jpg 200w,
-    ./assets/Public.Hist.The.Thinker_ib3hax_c_scale,w_649.jpg 649w,
-    ./assets/Public.Hist.The.Thinker_ib3hax_c_scale,w_800.jpg 800w
-  `}
-        sizes="(max-width: 800px) 100vw, 800px"
-        src={tedImg} // Import this from the original file
-        alt="Description of the image"
-        className="ted-img-styles"
-      /> */}
-
 
 
 
@@ -73,7 +61,9 @@ export default function ImgAndDescription() {
         </div>
 
         <div className="description-contact-me-btn-container">
+          <NavLink to="/Contact">
           <button>Contact Me</button>
+          </NavLink>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ export default function Footer() {
     <p>Contact</p>
     </div>
 
-    <h1>© 2024</h1>
+    <h1>© 2025</h1>
 
     </div>
   )

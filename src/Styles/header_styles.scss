@@ -28,6 +28,18 @@
     font-family: "Reddit Sans Condensed", sans-serif;
 }
 
+.header-button-links-container button:hover { 
+    text-decoration: underline;
+    text-decoration-color: rgb(224, 191, 0);
+    color: rgb(224, 191, 0);
+}
+
+// .footer-nav-links-container p:hover { 
+//     text-decoration: underline;
+//     text-decoration-color: rgb(224, 191, 0);
+//     color: rgb(224, 191, 0);
+// }
+
 .prof-k-header-styles { 
     display: none;
 }
