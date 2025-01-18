@@ -10,7 +10,7 @@ export default function Contact() {
       <h1>Connect With Me!</h1>
 
 
-    <form className='contact-us-form'> 
+    <form className='contact-us-form' name='contact-form' netlify> 
       
         <div className='fname-lname-email-container'> 
             <div className='fname-container'>
@@ -91,7 +91,7 @@ export default function Contact() {
       </div>
 
     <div className='submit-btn-container'>
-    <button>Submit</button>
+    <button type='submit'>Submit</button>
     </div>
 
     </div>
