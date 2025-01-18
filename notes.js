@@ -104,3 +104,9 @@
 
 
 // consider making a container of photos that go together // group relevant photos together 
+
+// *** 
+
+// put a description under each image 
+
+// then move onto the contact form section

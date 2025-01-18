@@ -31,137 +31,109 @@ export default function GalleryPage() {
       <Carousel.Item>
       <img src={tedImg1}></img>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          
+          <strong className='img-description-text'> <em>Northern Ontario Canada (1980)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img src={tedImg2}></img>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <strong className='img-description-text'> <em>Northern Ontario Canada (1980)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-      <img src={tedImg3}></img>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
+
+
+
+
+
 
       <Carousel.Item>
       <img src={tedImg15}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+         
+        <strong className='img-description-text'> <em>Northern Ontario Canada (1980)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
+
+
+
+
+      <Carousel.Item>
+      <img src={tedImg3}></img>
+        <Carousel.Caption>
+          
+        <strong className='img-description-text'> <em>Yukon River (1981)</em> </strong>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+
+
+
 
       <Carousel.Item>
       <img src={tedImg6}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        
+        <strong className='img-description-text'> <em>Mount Shuksan Climb (2004)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg5}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Loyola University Graduation (2015)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg4}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Lecture at Chicago Maritime Museum</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg9}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Diving Expedition</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg10}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Taj Mahal visit with wife Eileen</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg14}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Attending An Indian Wedding (2024)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg11}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>WTTW Interview (2018)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
       <img src={tedImg12}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Lecture On Viking River Cruise</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
-
-      <Carousel.Item>
-      <img src={tedImg7}></img>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
 
 
 
       <Carousel.Item>
       <img src={tedImg13}></img>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <strong className='img-description-text'> <em>Lecture At Loyola University Chicago</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -169,27 +141,6 @@ export default function GalleryPage() {
 
     </Carousel>
 
-
-      
-        {/* <div className='gallery-page-img-container-1'> 
-            
-            <img src={tedImg1}></img>
-            <img src={tedImg2}></img>
-            <img src={tedImg6}></img>
-        </div>
-
-        <div className='gallery-page-img-container-2'> 
-            
-            <img src={tedImg5}></img>
-            <img src={tedImg8}></img>
-            <img src={tedImg9}></img>
-        </div>
-
-        <div className='gallery-page-img-container-3'> 
-        <img src={tedImg10}></img>
-        <img src={tedImg11}></img>
-        <img src={tedImg12}></img>
-        </div> */}
 
 
 
