@@ -1,8 +1,18 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import { useState } from 'react'
 
 export default function Contact() {
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleSubmit = (e) => { 
+    e.preventDefault();
+    setIsSubmitted(true);
+  };
+
+
   return (
     <> 
     <Header></Header>
@@ -15,7 +25,7 @@ export default function Contact() {
 
 
 
-    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" action="/thank-you"> 
+    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" onSubmit={handleSubmit}> 
     <input type="hidden" name="form-name" value="contact-form" /> 
       
         <div className='fname-lname-email-container'> 
@@ -102,7 +112,7 @@ export default function Contact() {
 
     </div>
 
-
+    {isSubmitted && <p>Your form has been submitted successfully!</p>}
     </form>
 
 
