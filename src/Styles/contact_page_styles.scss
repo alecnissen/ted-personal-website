@@ -1,51 +1,48 @@
-.contact-us-content-wrapper { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 2rem;
-    
+.contact-us-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
 }
 
-.contact-us-content-wrapper h1 { 
-    font-family: "Reddit Sans Condensed", sans-serif;
-    font-size: 3rem;
-    color: black;
-    // text-shadow: 1px 1px 2px black;
-    z-index: 4;
-    position: relative;
-    margin-top: 5rem;
+.contact-us-content-wrapper h1 {
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  font-size: 3rem;
+  color: black;
+  // text-shadow: 1px 1px 2px black;
+  z-index: 4;
+  position: relative;
+  margin-top: 5rem;
 }
 
-.contact-us-form { 
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    align-items: center;
-    font-family: "Reddit Sans Condensed", sans-serif;
-    background-color: maroon;
-    padding: 2rem;
-    border-radius: 1rem;
-    gap: 2rem;
-    
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  background-color: maroon;
+  padding: 2rem;
+  border-radius: 1rem;
+  gap: 2rem;
 }
 
-.contact-us-form label { 
-    color: white;
+.contact-us-form label {
+  color: white;
 }
 
-.contact-us-form input, select, option { 
-    border: 3px solid black;
-    border-radius: 1rem;
-    
+.contact-us-form input,
+select,
+option {
+  border: 3px solid black;
+  border-radius: 1rem;
 }
 
-.contact-us-form select { 
-    width: 21rem;
+.contact-us-form select {
+  width: 21rem;
 }
-
-
 
 .fname-lname-email-container,
 .phone-container-date-time-container,
@@ -53,18 +50,18 @@
 .city-state-zip-wrapper,
 .event-type-service-container,
 .contact-preference-finding-us-container,
-.message-wrapper { 
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    font-size: 1.3rem;
+.message-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1.3rem;
 }
 
 .fname-container,
 .lname-container,
 .email-container,
 .phone-container,
-.event-date-container, 
+.event-date-container,
 .event-time-container,
 .hours-needed-container,
 .venue-name-container,
@@ -76,30 +73,126 @@
 .service-container,
 .package-container,
 .contact-preference-container,
-.finding-us-container { 
+.finding-us-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container,
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-container textarea {
+  border: 3px solid black;
+  border-radius: 1rem;
+  width: 35rem;
+  height: 10rem;
+  max-height: 25rem;
+}
+
+.submit-btn-container button {
+  padding: 0.5rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
+  .contact-us-content-wrapper h1 {
+    font-size: 2.5rem;
+  }
+
+  .fname-lname-email-container,
+  .phone-container-date-time-container,
+  .hours-venue-name-address-wrapper,
+  .city-state-zip-wrapper,
+  .event-type-service-container,
+  .contact-preference-finding-us-container,
+  .message-wrapper {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .message-container textarea {
+    width: 28rem;
+    height: 7.5rem;
+  }
 }
 
-.message-container, .message-wrapper { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 740px) {
+  .fname-lname-email-container,
+  .phone-container-date-time-container,
+  .hours-venue-name-address-wrapper,
+  .city-state-zip-wrapper,
+  .event-type-service-container,
+  .contact-preference-finding-us-container,
+  .message-wrapper {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+
+  .message-container textarea {
+    width: 20rem;
+  }
 }
 
-.message-container textarea { 
-    border: 3px solid black;
-    border-radius: 1rem;
-    width: 35rem;
-    height: 10rem;
-    max-height: 25rem;
+@media (max-width: 630px) {
+    .fname-lname-email-container,
+    .phone-container-date-time-container,
+    .hours-venue-name-address-wrapper,
+    .city-state-zip-wrapper,
+    .event-type-service-container,
+    .contact-preference-finding-us-container,
+    .message-wrapper {
+        
+        flex-direction: column;
+        font-size: 1.3rem;
+    }
+
+    .message-container textarea {
+        width: 21rem;
+      }
+
 }
 
-.submit-btn-container button { 
-    padding: 0.5rem;
-    background-color: white;
-    color: black;
-    border-radius: 1rem;
+
+@media (max-width: 504px) { 
+    .contact-us-content-wrapper h1 { 
+        margin-top: 7rem;
+    }
 }
 
+
+@media (max-width: 415px) { 
+    .fname-lname-email-container,
+    .phone-container-date-time-container,
+    .hours-venue-name-address-wrapper,
+    .city-state-zip-wrapper,
+    .event-type-service-container,
+    .contact-preference-finding-us-container,
+    .message-wrapper {
+        flex-direction: column;
+        font-size: 1.1rem;
+    } 
+
+    .message-container textarea {
+        width: 18rem;
+      }
+}
+
+@media (max-width: 360px) { 
+    .message-container textarea {
+        width: 15rem;
+      }
+
+      .contact-us-content-wrapper h1 { 
+        font-size: 2.2rem;
+        text-align: center;
+      }
+}
