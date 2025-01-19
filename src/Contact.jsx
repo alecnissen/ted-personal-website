@@ -8,7 +8,6 @@ export default function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (e) => { 
-    e.preventDefault();
     setIsSubmitted(true);
   };
 
@@ -25,7 +24,7 @@ export default function Contact() {
 
 
 
-    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true"> 
+    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" onSubmit={handleSubmit}> 
     <input type="hidden" name="form-name" value="contact-form" /> 
       
         <div className='fname-lname-email-container'> 
