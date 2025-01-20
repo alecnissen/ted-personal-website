@@ -119,4 +119,7 @@
 
 // can the form information be sent to an email
 
-// make the contact page responsive
+// ensure footer links have the active class like the header and are fully functional 
+
+// offcanvas links function the same as header and footer
+
