@@ -15,11 +15,18 @@ export default function Footer() {
     <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
     <button>Home</button>
     </NavLink>
-
-    <p>Biography</p>
-    <p>Publications & Lectures</p>
-    <p>Gallery</p>
-    <p>Contact</p>
+    <NavLink to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+    <button>Biography</button>
+    </NavLink>
+    <NavLink to="/Publications" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+    <button>Publications & Lectures</button>
+    </NavLink>
+    <NavLink to="/GalleryPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+    <button>Gallery</button>
+    </NavLink>
+    <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+    <button>Contact</button>
+    </NavLink>
     </div>
 
     <h1>© 2025</h1>

@@ -126,5 +126,10 @@
 
 // offcanvas links function the same as header and footer
 
+// *** all links now have underline 
+
+
+// double check responsiveness for 425px for home and biography page
+
 
 

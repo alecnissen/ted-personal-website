@@ -64,9 +64,12 @@ export default function Header() {
         <NavLink to="/Publications" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Publications & Lectures</button>
         </NavLink>
-
+        <NavLink to="/GalleryPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Gallery</button>
+        </NavLink>
+        <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Contact</button>
+        </NavLink>
 
         
 
