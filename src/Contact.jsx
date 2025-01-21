@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react'
 
 export default function Contact() {
 
@@ -10,6 +12,12 @@ export default function Contact() {
   const handleSubmit = (e) => { 
     setIsSubmitted(true);
   };
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [pathname]);
 
 
   return (

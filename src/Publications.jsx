@@ -2,8 +2,17 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import Card from 'react-bootstrap/Card';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react'
 
 export default function Publications() {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [pathname]);
+
   return (
     <> 
     <Header></Header>

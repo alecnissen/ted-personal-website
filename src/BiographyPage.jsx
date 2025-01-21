@@ -6,8 +6,18 @@ import capImg from './Assets/teacher-svgrepo-com (1).svg';
 import travelImg from './Assets/travel-svgrepo-com.svg';
 import bookImg from './Assets/books-stack-of-three-svgrepo-com.svg';
 import tvImg from './Assets/flatscreen-tv-svgrepo-com.svg';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react'
 
 export default function BiographyPage() {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [pathname]);
+
+
   return (
     <>
       <Header></Header>

@@ -17,10 +17,19 @@ import tedImg13 from './Assets/2022.Lincoln.Karamanski (1).png'
 import tedImg14 from './Assets/IMG_8855.jpeg'
 import tedImg15 from './Assets/Northern Ontario 1980.jpg'
 import Carousel from 'react-bootstrap/Carousel';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react'
 
 
 
 export default function GalleryPage() {
+
+  const { pathname } = useLocation();
+
+   useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname]);
+
   return (
     <> 
     <Header></Header>
