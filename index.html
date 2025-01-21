@@ -10,8 +10,7 @@
     <div id="root"></div>
 
 
-
-    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" hidden> 
+    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" hidden onSubmit={handleSubmit}> 
       <input type="hidden" name="form-name" value="contact-form" /> 
         
           <div className='fname-lname-email-container'> 

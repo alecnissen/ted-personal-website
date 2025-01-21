@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -10,7 +11,11 @@ export default function Footer() {
 
 
     <div className='footer-nav-links-container'> 
-    <p>Home</p>
+
+    <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+    <button>Home</button>
+    </NavLink>
+
     <p>Biography</p>
     <p>Publications & Lectures</p>
     <p>Gallery</p>
