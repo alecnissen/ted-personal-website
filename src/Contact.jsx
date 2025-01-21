@@ -27,7 +27,7 @@ export default function Contact() {
       <h1>Connect With Me!</h1>
 
 
-    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" onSubmit={handleSubmit}> 
+    <form className='contact-us-form' name='contact-form' method='POST' data-netlify="true" onSubmit={handleSubmit} action='/thank-you'> 
     <input type="hidden" name="form-name" value="contact-form" /> 
       
         <div className='fname-lname-email-container'> 
