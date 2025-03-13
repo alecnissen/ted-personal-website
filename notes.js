@@ -133,7 +133,15 @@
 
 // *** 
 
-// ensure you add the anti scroll feature so the page always scrolls to the top
+// ensure you add the anti scroll feature so the page always scrolls to the top // *** 
 
-// thank you page or a message that the form was submitted, make sure user can route back to the site 
+// thank you page or a message that the form was submitted, make sure user can route back to the site // *** 
+
+// *** 
+
+// font weights for all items 
+
+// check responsiveness for each change 
+
+// make sure img slider advances after certain period of time and add an effect 
 
