@@ -43,7 +43,7 @@ export default function Header() {
 
     <img src={hamburgerMenuImg} className="d-lg-none" onClick={handleShow}></img>
 
-    <h1 className='prof-k-header-styles'>Professor Ted Karamanski</h1>
+    <h1 className='prof-k-header-styles'>Theodore Karamanski</h1>
 
       <Offcanvas show={show} onHide={handleClose} className='header-offcanvas-styles'>
         <Offcanvas.Header closeButton>
@@ -52,8 +52,6 @@ export default function Header() {
 
         <div className='offcanvas-header-navlinks-styles'> 
 
-        {/* <button>Home</button>
-        <button>Biography</button> */}
 
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Home</button>

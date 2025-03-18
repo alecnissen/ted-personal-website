@@ -15,9 +15,9 @@ export default function ImgAndDescription() {
 
 
       <div className="title-description-container">
-        <h1>Professor Ted Karamanski</h1>
+        <h1>Theodore Karamanski</h1>
         <h3>
-          <em>Public History Director, Loyola University Chicago</em>
+          <em>Professor Emeritus, Loyola University Chicago</em>
         </h3>
 
         <div className="attributes-container">
@@ -45,7 +45,7 @@ export default function ImgAndDescription() {
 
         <div className="description-container">
           <p>
-            Theodore J. Karamanski is Professor of Public History at Loyola University. He is author
+            Theodore J. Karamanski is Professor Emeritus at Loyola University Chicago. He is author
             of ten books and numerous articles related to history, archaeology, historic
             preservation, and maritime history. He has been a heritage consultant for the USA
             National Park Service, the BBC, The History Channel, Travel Channel, Weather Channel,

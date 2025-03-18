@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <div className='footer-content-wrapper'>
     
-    <h1>Professor Ted Karamanski</h1>
+    <h1>Theodore Karamanski</h1>
 
-    <h4>Public History Director, Loyola University Chicago</h4>
+    <h4>Professor Emeritus, Loyola University Chicago</h4>
 
 
     <div className='footer-nav-links-container'> 
