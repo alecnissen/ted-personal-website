@@ -23,22 +23,22 @@ export default function ImgAndDescription() {
           <div className="historian-label-emoji-container">
             <img src={openBookImg} className="book-img-styles" alt='animated icon of a book'></img>
 
-            <h4>Historian</h4>
+            <h3>Historian</h3>
           </div>
 
           <div className="author-label-emoji-container">
             <img src={writingHandImg} className="author-img-styles" alt='animated icon of a person writing'></img>
-            <h4>Author</h4>
+            <h3>Author</h3>
           </div>
 
           <div className="speaker-label-emoji-container">
             <img src={micImg} className="speaker-mic-img-styles" alt='animated icon of a microphone'></img>
-            <h4>Speaker</h4>
+            <h3>Speaker</h3>
           </div>
 
           <div className="outdoors-label-emoji-container">
             <img src={outdoorsImg} className="outdoors-img-styles" alt='animated icon representing nature'></img>
-            <h4>Outdoorsman</h4>
+            <h3>Outdoorsman</h3>
           </div>
         </div>
 
