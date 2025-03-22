@@ -5,12 +5,11 @@ import writingHandImg from './Assets/writing-hand-skin-1-svgrepo-com.svg';
 import micImg from './Assets/microphone-svgrepo-com.svg';
 import outdoorsImg from './Assets/camping-svgrepo-com.svg';
 import { NavLink } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
 
 export default function ImgAndDescription() {
   return (
     <div className="img-description-content-wrapper">
-      <img src={tedImg} className="ted-img-styles"></img>
+      <img src={tedImg} className="ted-img-styles" alt='picture of Ted Karamanski on a boat'></img>
 
 
 
@@ -22,23 +21,23 @@ export default function ImgAndDescription() {
 
         <div className="attributes-container">
           <div className="historian-label-emoji-container">
-            <img src={openBookImg} className="book-img-styles"></img>
+            <img src={openBookImg} className="book-img-styles" alt='animated icon of a book'></img>
 
             <h4>Historian</h4>
           </div>
 
           <div className="author-label-emoji-container">
-            <img src={writingHandImg} className="author-img-styles"></img>
+            <img src={writingHandImg} className="author-img-styles" alt='animated icon of a person writing'></img>
             <h4>Author</h4>
           </div>
 
           <div className="speaker-label-emoji-container">
-            <img src={micImg} className="speaker-mic-img-styles"></img>
+            <img src={micImg} className="speaker-mic-img-styles" alt='animated icon of a microphone'></img>
             <h4>Speaker</h4>
           </div>
 
           <div className="outdoors-label-emoji-container">
-            <img src={outdoorsImg} className="outdoors-img-styles"></img>
+            <img src={outdoorsImg} className="outdoors-img-styles" alt='animated icon representing nature'></img>
             <h4>Outdoorsman</h4>
           </div>
         </div>

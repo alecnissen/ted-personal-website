@@ -27,7 +27,7 @@ export default function ExpertiseCards() {
                 <h1>Maritime History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={anchorImg}></img>
+                <img src={anchorImg} alt='animated icon of a ship anchor'></img>
                 </div>
 
         </div>
@@ -36,7 +36,7 @@ export default function ExpertiseCards() {
                 <h1>Public History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={publicHistoryImg}></img>
+                <img src={publicHistoryImg} alt='animated icon of books'></img>
                 </div>
 
         </div>
@@ -45,7 +45,7 @@ export default function ExpertiseCards() {
                 <h1>Indian History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={indianSvg}></img>
+                <img src={indianSvg} alt='animated icon of native american'></img>
                 </div>
 
             </div>
@@ -54,7 +54,7 @@ export default function ExpertiseCards() {
                 <h1>Civil War History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={civilWarImg}></img>
+                <img src={civilWarImg} alt='animated icon of Abraham Lincoln'></img>
                 </div>
 
             </div>
@@ -63,7 +63,7 @@ export default function ExpertiseCards() {
                 <h1>Military History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={militaryImg}></img>
+                <img src={militaryImg} alt='animated icon of military medals'></img>
                 </div>
 
             </div>
@@ -72,7 +72,7 @@ export default function ExpertiseCards() {
                 <h1>Viking History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={vikingImg}></img>
+                <img src={vikingImg} alt='animated icon of a viking helmet'></img>
                 </div>
 
             </div>
@@ -81,7 +81,7 @@ export default function ExpertiseCards() {
                 <h1>Canadian History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={canadianHistoryIcon}></img>
+                <img src={canadianHistoryIcon} alt='animated icon of the Canadian Flag'></img>
                 </div>
 
             </div>
@@ -90,7 +90,7 @@ export default function ExpertiseCards() {
                 <h1>Environment History</h1>
                 
                 <div className='expertise-img-container'>
-                <img src={environmentIcon}></img>
+                <img src={environmentIcon} alt='animated icon of the globe'></img>
                 </div>
 
             </div>

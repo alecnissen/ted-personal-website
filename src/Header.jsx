@@ -41,7 +41,7 @@ export default function Header() {
     </div>
 
 
-    <img src={hamburgerMenuImg} className="d-lg-none" onClick={handleShow}></img>
+    <img src={hamburgerMenuImg} className="d-lg-none" onClick={handleShow} alt='dropdown-menu-icon'></img>
 
     <h1 className='prof-k-header-styles'>Theodore Karamanski</h1>
 
