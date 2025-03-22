@@ -51,14 +51,14 @@ export default function GalleryPage() {
 
     <Carousel className='gallery-img-slider'>
       <Carousel.Item>
-      <img src={tedImg1}></img>
+      <img src={tedImg1} alt='Image of Ted in Northern Ontario Canada in 1980'></img>
         <Carousel.Caption>
           
           <strong className='img-description-text'> <em>Northern Ontario Canada (1980)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={tedImg2}></img>
+      <img src={tedImg2} alt='Image of Ted fishing in Northern Ontario Canada in 1980'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Northern Ontario Canada (1980)</em> </strong>
         </Carousel.Caption>
@@ -70,7 +70,7 @@ export default function GalleryPage() {
 
 
       <Carousel.Item>
-      <img src={tedImg15}></img>
+      <img src={tedImg15} alt='Image of Ted boating in Northern Ontario Canada in 1980'></img>
         <Carousel.Caption>
          
         <strong className='img-description-text'> <em>Northern Ontario Canada (1980)</em> </strong>
@@ -81,7 +81,7 @@ export default function GalleryPage() {
 
 
       <Carousel.Item>
-      <img src={tedImg3}></img>
+      <img src={tedImg3} alt='Image of Ted and friend in Yukon River in 1981'></img>
         <Carousel.Caption>
           
         <strong className='img-description-text'> <em>Yukon River (1981)</em> </strong>
@@ -94,7 +94,7 @@ export default function GalleryPage() {
 
 
       <Carousel.Item>
-      <img src={tedImg6}></img>
+      <img src={tedImg6} alt='Image of Ted and friends at the summit of Mount Shuksan Climb in 2004'></img>
         <Carousel.Caption>
         
         <strong className='img-description-text'> <em>Mount Shuksan Climb (2004)</em> </strong>
@@ -102,49 +102,49 @@ export default function GalleryPage() {
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg5}></img>
+      <img src={tedImg5} alt='Image of Ted and a couple of students at Loyola University Graduation in 2015' ></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Loyola University Graduation (2015)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg4}></img>
+      <img src={tedImg4} alt='Image of Ted after a lecture at the Chicago Maritime Museum'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Lecture at Chicago Maritime Museum</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg9}></img>
+      <img src={tedImg9} alt='Image of Ted before a diving expedition'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Diving Expedition</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg10}></img>
+      <img src={tedImg10} alt='Image of Ted with wife Eileen at Taj Mahal'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Taj Mahal visit with wife Eileen</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg14}></img>
+      <img src={tedImg14} alt='Image of Ted with wife Eileen attending an Indian wedding in 2024'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Attending An Indian Wedding (2024)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg11}></img>
+      <img src={tedImg11} alt='Image of Ted being interviewed in Chicago for the company WTTW'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>WTTW Interview (2018)</em> </strong>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={tedImg12}></img>
+      <img src={tedImg12} alt='Image of Ted lecturing on Viking River Cruise'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Lecture On Viking River Cruise</em> </strong>
         </Carousel.Caption>
@@ -153,7 +153,7 @@ export default function GalleryPage() {
 
 
       <Carousel.Item>
-      <img src={tedImg13}></img>
+      <img src={tedImg13} alt='Image of Ted lecturing at Loyola University Chicago'></img>
         <Carousel.Caption>
         <strong className='img-description-text'> <em>Lecture At Loyola University Chicago</em> </strong>
         </Carousel.Caption>
