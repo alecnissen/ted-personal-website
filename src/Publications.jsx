@@ -4,6 +4,8 @@ import Footer from './Footer'
 import Card from 'react-bootstrap/Card';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react'
+import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
+import { Helmet } from 'react-helmet-async';
 
 export default function Publications() {
 
@@ -15,9 +17,22 @@ export default function Publications() {
 
   return (
     <> 
+
+        <Helmet>
+                <title>Theodore Karamanski's Offical Website Publications page</title>
+                <meta name="description" content="Explore the Publications page of Professor Emeritus Theodore Karamanski, traveling lecturer at Loyola University Chicago, featuring information and links to his books, articles, and book reviews." />
+                <meta name="keywords" content="Professor Emeritus, Theodore Karamanski, Loyola University Chicago, Traveling Lecturer, Historian, Public Historian, Author of 12 Books, Books Written by Theodore Karamanski, Articles by Theodore Karamanski, Book Reviews by Theodore Karamanski, American History, Civil War History, Native American History, Nineteenth-Century History, Public History Publications, Historical Articles, Historical Research, History Books, History Lectures, History Speaker, Academic Author, History Scholar, History Educator, History Program Director, Historical Writing, Historical Reviews, National Council on Public History, NCPH, Historical Consultant, History Channel Appearances" />
+                <meta property="og:title" content="Publications" />
+                <meta property="og:description" content="Explore the Publications page of Professor Emeritus Theodore Karamanski, traveling lecturer at Loyola University Chicago, featuring information and links to his books, articles, and book reviews." />
+                <meta property="og:image" content={tedImg} />
+                <meta property="og:url" content="https://tedkaramanski.com/Publications" />
+            </Helmet>
+
+
+
     <Header></Header>
     <div className='publications-page-content-wrapper'>
-      {/* <h1 className='publications-header-text'>Explore My Work</h1> */}
+      
 
       <h1 className='books-header-text-container'>Books</h1>
 
