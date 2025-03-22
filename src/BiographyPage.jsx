@@ -8,6 +8,8 @@ import bookImg from './Assets/books-stack-of-three-svgrepo-com.svg';
 import tvImg from './Assets/flatscreen-tv-svgrepo-com.svg';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react'
+import { Helmet } from 'react-helmet-async';
+import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
 
 export default function BiographyPage() {
 
@@ -20,12 +22,23 @@ export default function BiographyPage() {
 
   return (
     <>
+
+     <Helmet>
+            <title>Theodore Karamanski's Offical Website Biography page</title>
+            <meta name="description" content="Explore the Biography page of Professor Emeritus Theodore Karamanski's official website, featuring his background, years of experience, number of books written, and a quote reflecting his passion for teaching." />
+            <meta name="keywords" content="Professor Emeritus, Theodore Karamanski, Loyola University Chicago, Public History, Public History Director, National Council on Public History, NCPH, History Speaker, Traveling Historian, Historical Consultant, 25+ Years Teaching Experience, Author of 12 Historical Books, American History, Civil War History, American Indian History, Nineteenth-Century History, Frederick Jackson Turner Award, Herbert Feis Award, Illinois State Historical Society, National Park Service, United States Forest Service, Native American History, Historic Preservation, History Channel TV Appearances, Historical Research, Academic Lecturer, Educational Speaker, History Scholar, Midwest History, Illinois Historic Sites Advisory Board, Journal of the Illinois State Historical Society" />
+            <meta property="og:title" content="BiographyPage" />
+            <meta property="og:description" content="Explore the Biography page of Professor Emeritus Theodore Karamanski's official website, featuring his background, years of experience, number of books written, and a quote reflecting his passion for teaching." />
+            <meta property="og:image" content={tedImg} />
+            <meta property="og:url" content="https://tedkaramanski.com/BiographyPage" />
+        </Helmet>
+
+
+
       <Header></Header>
       <div className="biography-page-content-wrapper">
         <div className="biography-page-content-container">
-          {/* <h1 className="biography-page-header-text">
-            Biography
-          </h1> */}
+          
 
           <div className="biography-page-row-container">
           
