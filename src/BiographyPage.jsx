@@ -42,7 +42,7 @@ export default function BiographyPage() {
 
           <div className="biography-page-row-container">
           
-            <img src={bioPageImg} className="biography-page-img-styles"></img>
+            <img src={bioPageImg} className="biography-page-img-styles" alt='Image of Ted Karamanski lecturing people outdoors'></img>
 
             <div className="biography-page-description-container">
               <h1>Bringing The Joy And Wonder of Public History</h1>
@@ -74,19 +74,19 @@ export default function BiographyPage() {
         <div className="biography-cards-container">
           <div className="biography-card">
             25+ Years Teaching Experience
-            <img src={capImg}></img>
+            <img src={capImg} alt='image of a university graduation cap'></img>
           </div>
           <div className="biography-card">
             Traveling Public Historian & Speaker
-            <img src={travelImg}></img>
+            <img src={travelImg} alt='image of a globe and a plane traveling around the globe'></img>
           </div>
           <div className="biography-card">
             Author of 12 Historical Books
-            <img src={bookImg}></img>
+            <img src={bookImg} alt='image of a stack of books'></img>
           </div>
           <div className="biography-card">
             TV Appearances on the History Channel
-            <img src={tvImg}></img>
+            <img src={tvImg} alt='image of a television set'></img>
           </div>
         </div>
         </div>
