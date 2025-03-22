@@ -1,10 +1,3 @@
-import Header from "./Header"
-import ImgAndDescription from "./ImgAndDescription"
-import ExpertiseCards from "./ExpertiseCards"
-import FeaturedBooks from "./FeaturedBooks"
-import FeaturedLectures from "./FeaturedLectures"
-import LatestNews from "./LatestNews"
-import Footer from "./Footer"
 import Homepage from "./Homepage"
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from 'react-router-dom';
@@ -12,12 +5,16 @@ import BiographyPage from "./BiographyPage"
 import Publications from "./Publications"
 import GalleryPage from "./GalleryPage"
 import Contact from "./Contact"
+import { HelmetProvider } from 'react-helmet-async';
+import Header from "./Header";
 
 function App() {
 
   return (
     <> 
+    <HelmetProvider>
     <BrowserRouter>
+    
     <Routes>
     <Route path="/" element={<Homepage />}></Route>
 
@@ -29,12 +26,9 @@ function App() {
 
     <Route path="/Contact" element={<Contact></Contact>}></Route>
 
-
-
-
-
     </Routes>
     </BrowserRouter>
+    </HelmetProvider>
     </>
   )
 }

@@ -145,3 +145,25 @@
 
 // make sure img slider advances after certain period of time and add an effect 
 
+
+
+
+
+
+
+
+// margin left on inputs in contact form
+
+// import header in app and avoid importing it within each component 
+
+// ** meta data notes 
+
+// <meta name="description" content="This will be the offical" /> content about the page, description, brief page summary 
+
+//  <meta name="keywords" content="" />    keywords, phrases, seperated by commas 
+
+
+{/* <meta property="og:title" content="PUT TITLE OF PAGE HERE" />  // title of page
+<meta property="og:description" content="PUT DESCRIPTION OF PAGE HERE" /> // description of the page
+<meta property="og:image" content={PUT IMPORTED IMAGE HERE} /> // use homepage image ON EACH PAGE 
+<meta property="og:url" content="PUT WEBSITE PAGE URL HERE" /> */} // URL OF THE PAGE YOU ARE ON!
