@@ -4,6 +4,9 @@ import Footer from './Footer'
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react'
+import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
+import { Helmet } from 'react-helmet-async';
+
 
 export default function Contact() {
 
@@ -22,6 +25,19 @@ export default function Contact() {
 
   return (
     <> 
+
+                  <Helmet>
+                      <title>Theodore Karamanski's Offical Contact Page</title>
+                      <meta name="description" content="Explore the Contact page of Professor Emeritus Theodore Karamanski, Loyola University Chicago. This page features a contact form for reaching Theodore, with fields for name, required date, hours needed, and a message." />
+                      <meta name="keywords" content="Theodore Karamanski, Professor Emeritus, Loyola University Chicago, Contact Theodore Karamanski, Contact Form, Name, Date Needed, Hours Needed, Message for Theodore, Contact Information, Historical Speaker, Public Historian, Inquiry Form, Speaking Engagements, Historian Contact, Professor Contact, Academic Contact, Theodore Karamanski Contact" />
+                      <meta property="og:title" content="Contact" />
+                      <meta property="og:description" content="Explore the Contact page of Professor Emeritus Theodore Karamanski, Loyola University Chicago. This page features a contact form for reaching Theodore, with fields for name, required date, hours needed, and a message." />
+                      <meta property="og:image" content={tedImg} />
+                      <meta property="og:url" content="https://tedkaramanski.com/Contact" />
+                  </Helmet>
+
+
+
     <Header></Header>
     <div className='contact-us-content-wrapper'>
       <h1>Connect With Me!</h1>

@@ -24,7 +24,7 @@ export default function BiographyPage() {
     <>
 
      <Helmet>
-            <title>Theodore Karamanski's Offical Website Biography page</title>
+            <title>Theodore Karamanski's Offical Website Biography Page</title>
             <meta name="description" content="Explore the Biography page of Professor Emeritus Theodore Karamanski's official website, featuring his background, years of experience, number of books written, and a quote reflecting his passion for teaching." />
             <meta name="keywords" content="Professor Emeritus, Theodore Karamanski, Loyola University Chicago, Public History, Public History Director, National Council on Public History, NCPH, History Speaker, Traveling Historian, Historical Consultant, 25+ Years Teaching Experience, Author of 12 Historical Books, American History, Civil War History, American Indian History, Nineteenth-Century History, Frederick Jackson Turner Award, Herbert Feis Award, Illinois State Historical Society, National Park Service, United States Forest Service, Native American History, Historic Preservation, History Channel TV Appearances, Historical Research, Academic Lecturer, Educational Speaker, History Scholar, Midwest History, Illinois Historic Sites Advisory Board, Journal of the Illinois State Historical Society" />
             <meta property="og:title" content="BiographyPage" />

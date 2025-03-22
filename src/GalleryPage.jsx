@@ -19,6 +19,8 @@ import tedImg15 from './Assets/Northern Ontario 1980.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react'
+import tedImg from './Assets/Public.Hist.The.Thinker.jpg';
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -32,6 +34,17 @@ export default function GalleryPage() {
 
   return (
     <> 
+
+             <Helmet>
+                  <title>Theodore Karamanski's Offical Gallery Page</title>
+                  <meta name="description" content="Explore the Gallery page of Professor Emeritus Theodore Karamanski from Loyola University Chicago, featuring photos of Theodore, his family, and his travels around the world." />
+                  <meta name="keywords" content="Theodore Karamanski, Professor Emeritus, Loyola University Chicago, Theodore Karamanski Gallery, Family Photos, Travel Photos, World Travel, Historical Traveler, Professor and Traveler, Academic Historian, Personal Photos, Travel Photography, Gallery of Theodore Karamanski, Theodore Karamanski Family, World Explorer, Historical Scholar, Photographs of Theodore Karamanski, Theodore Karamanski Travels" />
+                  <meta property="og:title" content="GalleryPage" />
+                  <meta property="og:description" content="Explore the Gallery page of Professor Emeritus Theodore Karamanski from Loyola University Chicago, featuring photos of Theodore, his family, and his travels around the world." />
+                  <meta property="og:image" content={tedImg} />
+                  <meta property="og:url" content="https://tedkaramanski.com/GalleryPage" />
+              </Helmet>
+
     <Header></Header>
     <div className='gallery-page-content-wrapper'>
 
