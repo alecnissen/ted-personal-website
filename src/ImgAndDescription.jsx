@@ -15,9 +15,9 @@ export default function ImgAndDescription() {
 
       <div className="title-description-container">
         <h1>Theodore Karamanski</h1>
-        <h3>
+        <h2>
           <em>Professor Emeritus, Loyola University Chicago</em>
-        </h3>
+        </h2>
 
         <div className="attributes-container">
           <div className="historian-label-emoji-container">

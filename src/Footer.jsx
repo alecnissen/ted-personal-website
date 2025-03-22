@@ -7,7 +7,7 @@ export default function Footer() {
     
     <h1>Theodore Karamanski</h1>
 
-    <h4>Professor Emeritus, Loyola University Chicago</h4>
+    <h2>Professor Emeritus, Loyola University Chicago</h2>
 
 
     <div className='footer-nav-links-container'> 
