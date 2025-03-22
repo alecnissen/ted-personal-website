@@ -6,7 +6,6 @@ import Publications from "./Publications"
 import GalleryPage from "./GalleryPage"
 import Contact from "./Contact"
 import { HelmetProvider } from 'react-helmet-async';
-import Header from "./Header";
 
 function App() {
 

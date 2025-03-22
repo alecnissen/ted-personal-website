@@ -21,19 +21,19 @@ export default function Header() {
     <div className='header-wrapper'>
     
     <div className='header-button-links-container'>
-        <NavLink title='Homepage link' to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+        <NavLink title='Homepage' to="/" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Home</button>
         </NavLink>
-        <NavLink title='Biography page link' to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+        <NavLink title='Biography' to="/BiographyPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Biography</button>
         </NavLink>
-        <NavLink title='Publications page link' to="/Publications" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+        <NavLink title='Publications' to="/Publications" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Publications & Lectures</button>
         </NavLink>
-        <NavLink title='Gallery page link' to="/GalleryPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+        <NavLink title='Gallery' to="/GalleryPage" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Gallery</button>
         </NavLink>
-        <NavLink title='Contact page link' to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
+        <NavLink title='Contact' to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}>
         <button>Contact</button>
         </NavLink>
 
